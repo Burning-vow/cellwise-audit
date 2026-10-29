@@ -1,0 +1,20 @@
+Data and documentation licence: CC BY 4.0
+=========================================
+
+The code in this package (*.py, *.sh) is licensed under the MIT License; see
+LICENSE.
+
+The data and prose in this package -- all *.csv, *.jsonl, *.md, *.tex files and
+the compiled PDFs -- are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0):
+
+    https://creativecommons.org/licenses/by/4.0/
+
+You are free to share (copy and redistribute in any medium or format) and to
+adapt (remix, transform, and build upon) this material for any purpose, even
+commercially, provided that you give appropriate credit, provide a link to the
+licence, and indicate if changes were made.
+
+Suggested attribution: Wen, Zhang, Wang, Chen and Wang, "Reproducibility
+package: Cell-Wise Detectability Boundaries for LLM-Generated Stochastic
+Simulation Models", 2026.

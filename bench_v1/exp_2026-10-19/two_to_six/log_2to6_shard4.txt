@@ -1,0 +1,20 @@
+[mmatrix 4/4] todo=85 skip=750 seeds=10 hor=40000
+[mmatrix 4/4] 1/85 mm1-04__E04 14.3s rows=11
+[mmatrix 4/4] 5/85 mm1-04__E40 10.5s rows=11
+[mmatrix 4/4] 10/85 mm1-08__E30 14.2s rows=11
+[mmatrix 4/4] 15/85 mmc-01__E24 19.3s rows=11
+[mmatrix 4/4] 20/85 mmc-02__E10 14.4s rows=11
+[mmatrix 4/4] 25/85 mm1K-01__E04 13.9s rows=11
+[mmatrix 4/4] 30/85 mm1K-01__E40 11.2s rows=11
+[mmatrix 4/4] 35/85 mm1K-06__E26 16.3s rows=11
+[mmatrix 4/4] 40/85 mmcK-02__E13 12.4s rows=11
+[mmatrix 4/4] 45/85 mmcK-07__E02 18.4s rows=11
+[mmatrix 4/4] 50/85 mmcK-07__E26 16.7s rows=11
+[mmatrix 4/4] 55/85 md1-03__E25 14.6s rows=11
+[mmatrix 4/4] 60/85 md1-04__E24 10.8s rows=11
+[mmatrix 4/4] 65/85 mh2-02__E13 11.0s rows=11
+[mmatrix 4/4] 70/85 mh2-05__E11 5.0s rows=11
+[mmatrix 4/4] 75/85 jackson2-01__E08 6.6s rows=11
+[mmatrix 4/4] 80/85 jackson2-08__E02 21.0s rows=11
+[mmatrix 4/4] 85/85 jackson2-08__E40 19.0s rows=11
+[mmatrix 4/4] ALL 85 done

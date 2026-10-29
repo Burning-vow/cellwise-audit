@@ -1,0 +1,5 @@
+task_id,template,error_type,expected,p5_boundary,verdict,judged,fired_n,fired_obs,fired_cells,no_tau,counters,seeds,horizon,match,note
+ext-mm1-01,mm1,E01,blind,static,NOT_DETECTED,8,0,,,,"nonhead=862352,preempt=0,class0=0,transfer=0,swap_noop=0,leak=0,fieldconst=0,backsolve=0",10,40000.0,MATCH,
+ext-mm1-01,mm1,E02,blind,static,NOT_DETECTED,8,0,,,,"nonhead=558885,preempt=0,class0=0,transfer=0,swap_noop=0,leak=0,fieldconst=0,backsolve=0",10,40000.0,MATCH,
+ext-mm1-01,mm1,E03,detectable,point,DETECTED,8,2,"L,W",J1/W rel=0.2162>tau=0.01; J1/L rel=0.2167>tau=0.01,,"nonhead=548414,preempt=0,class0=0,transfer=0,swap_noop=0,leak=0,fieldconst=0,backsolve=0",10,40000.0,MATCH,
+ext-mm1-01,mm1,E24,detectable,point,DETECTED,8,2,"L,W",J1/W rel=0.1585>tau=0.01; J1/L rel=0.1591>tau=0.01,,"nonhead=356914,preempt=0,class0=1927528,transfer=0,swap_noop=0,leak=0,fieldconst=0,backsolve=0",10,40000.0,MATCH,

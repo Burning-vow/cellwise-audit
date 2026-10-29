@@ -1,0 +1,8 @@
+group,numerator,denominator,rate,definition
+static_silent,34,34,1.0000,static 边界格保持静默
+point_firing,26,27,0.9630,point 边界格点火
+open_mmcK_firing,4,4,1.0000,mmcK 上 E03/E24 开放格在教材参数下点火
+open_E04_silent,4,4,1.0000,E04 开放对照保持静默
+weak_mean_shift,8,8,1.0000,weak 格出现均值偏移（fired_n>0）
+total_rows,86,86,1.0000,外部矩阵行数（=表 V 的 Mutants 列求和）
+distinct_tasks,12,86,,涉及题数

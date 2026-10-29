@@ -1,0 +1,9 @@
+[mmatrix 1/1] todo=35 skip=0 seeds=10 hor=40000
+[mmatrix 1/1] 5/35 mmc-08__E09 23.9s rows=11
+[mmatrix 1/1] 10/35 mm1K-06__E16 54.9s rows=11
+[mmatrix 1/1] 15/35 mmcK-04__E05 27.7s rows=11
+[mmatrix 1/1] 20/35 md1-01__E28 20.6s rows=11
+[mmatrix 1/1] 25/35 mh2-03__E07 160.7s rows=11
+[mmatrix 1/1] 30/35 jackson2-04__E07 115.4s rows=11
+[mmatrix 1/1] 35/35 eoq-02__E38 0.1s rows=8
+[mmatrix 1/1] ALL 35 done

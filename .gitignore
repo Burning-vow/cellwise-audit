@@ -1,0 +1,20 @@
+# 密钥与本地配置：永不入库
+*.env
+.env*
+*_key.txt
+secrets*
+
+# 备份与临时（本仓库的历史里有一批 .pre_* / .bak，暂存阶段已剔除）
+*.pre_*
+*.bak
+*.tmp
+*~
+
+# 缓存与日志
+__pycache__/
+*.pyc
+*.log
+
+# 编辑器
+.vscode/
+.idea/

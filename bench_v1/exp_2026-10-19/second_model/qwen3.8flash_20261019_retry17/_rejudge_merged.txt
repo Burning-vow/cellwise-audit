@@ -1,0 +1,53 @@
+# 盘上工件回判（qwen3.8flash_20261019_retry17，出口=criteria.run_artifact，R=10/40000）
+
+合并 4 个 sidecar：_shard0.tsvl, _shard1.tsvl, _shard2.tsvl, _shard3.tsvl
+
+读入 **17 件**（题号在题集里找不到而跳过 0 件）
+
+## 分型
+
+- OK: 8
+- CRASH: 4
+- NO_ENTRY: 3
+- SYNTAX: 2
+- FIELD_GAP: 0
+- NO_JSON: 0
+- SKIP_NOTID: 0
+
+## 门槛与分母（一次报全，不许只报好看的那个）
+
+- 可编译：15/17 = 88.2%（门槛 ≥80%）
+- 契约字段齐全（required 全中）：8/17 = 47.1%（门槛 ≥60%）
+- 吐出了 JSON（能进比对）：8/17
+- 其中**仪器比不了**（一个带 τ 星的观测量都没有）：0 件 ⇒ 从分子分母同时剔除，不计为失败
+- 件级可比率（该件可比观测量**全部**一致 / 可比件数）：0/8 = 0.0%；若为 0 则 Wilson 上界 32.4%
+- **格级一致率**（可比观测量里一致的比例，主统计量）：5/25 = 20.0%（门槛 ≥10%）
+- 与本地探针 20 题的交集：6/17
+
+## 最慢 5 件（超时件要单列，不能混进"模型写错"）
+
+- mm1K-05__d2__retry.py run_wall=420.0s kind=CRASH
+- jackson2-06__d2__retry.py run_wall=109.5s kind=OK
+- mh2-01__d3__retry.py run_wall=5.4s kind=OK
+- mm1-02__d3__retry.py run_wall=3.9s kind=OK
+- mmcK-06__d1__retry.py run_wall=3.4s kind=OK
+
+## 逐件（cells 全表只在 sidecar，正文不落）
+
+{"file": "jackson2-03__d1__retry.py", "task_id": "jackson2-03", "template": "jackson2", "in_probe_set": true, "code_lines": 454, "has_obs": true, "n_in": 0, "n_tot": 2, "run_wall": 0.2, "run_note": "ok", "has_entry": true, "missing_fields": [], "agree": "0/2", "kind": "OK"}
+{"file": "jackson2-03__d3__retry.py", "task_id": "jackson2-03", "template": "jackson2", "in_probe_set": true, "code_lines": 464, "has_obs": false, "n_in": 0, "n_tot": 0, "run_wall": 0.2, "run_note": ":\\bench_v1\\exp_2026-10-19\\second_model\\qwen3.8flash_20261019_retry17\\jackson2-03__d3__retry.py\", line 213, in main\n    active_job_arrival_times.append(min_time)\n    ^^^^^^^^^^^^^^^^^^^^^^^^\nNameError: name 'active_job_arrival_times' is not defined\n", "has_entry": true, "kind": "CRASH"}
+{"file": "jackson2-06__d2__retry.py", "task_id": "jackson2-06", "template": "jackson2", "in_probe_set": false, "code_lines": 553, "has_obs": true, "n_in": 0, "n_tot": 2, "run_wall": 109.5, "run_note": "ok", "has_entry": true, "missing_fields": [], "agree": "0/2", "kind": "OK"}
+{"file": "md1-02__d1__retry.py", "task_id": "md1-02", "template": "md1", "in_probe_set": true, "code_lines": 381, "has_obs": false, "n_in": 0, "n_tot": 0, "syntax_err": "unexpected indent (md1-02__d1__retry.py, line 44)", "kind": "SYNTAX"}
+{"file": "md1-05__d3__retry.py", "task_id": "md1-05", "template": "md1", "in_probe_set": false, "code_lines": 392, "has_obs": true, "n_in": 1, "n_tot": 3, "run_wall": 0.4, "run_note": "ok", "has_entry": true, "missing_fields": [], "agree": "1/3", "kind": "OK"}
+{"file": "mh2-01__d2__retry.py", "task_id": "mh2-01", "template": "mh2", "in_probe_set": true, "code_lines": 285, "has_obs": false, "n_in": 0, "n_tot": 0, "run_wall": 0.1, "run_note": "no_json_line", "has_entry": false, "kind": "NO_ENTRY"}
+{"file": "mh2-01__d3__retry.py", "task_id": "mh2-01", "template": "mh2", "in_probe_set": true, "code_lines": 491, "has_obs": true, "n_in": 1, "n_tot": 3, "run_wall": 5.4, "run_note": "ok", "has_entry": true, "missing_fields": [], "agree": "1/3", "kind": "OK"}
+{"file": "mh2-06__d1__retry.py", "task_id": "mh2-06", "template": "mh2", "in_probe_set": false, "code_lines": 556, "has_obs": true, "n_in": 0, "n_tot": 3, "run_wall": 0.3, "run_note": "ok", "has_entry": true, "missing_fields": [], "agree": "0/3", "kind": "OK"}
+{"file": "mh2-06__d2__retry.py", "task_id": "mh2-06", "template": "mh2", "in_probe_set": false, "code_lines": 412, "has_obs": false, "n_in": 0, "n_tot": 0, "run_wall": 0.2, "run_note": "6-10-19\\second_model\\qwen3.8flash_20261019_retry17\\mh2-06__d2__retry.py\", line 239, in main\n    sum_sojourn_time += (t - active_arrival_time)\n                         ~~^~~~~~~~~~~~~~~~~~~~~\nTypeError: unsupported operand type(s) for -: 'float' and 'NoneType'\n", "has_entry": true, "kind": "CRASH"}
+{"file": "mh2-06__d3__retry.py", "task_id": "mh2-06", "template": "mh2", "in_probe_set": false, "code_lines": 310, "has_obs": false, "n_in": 0, "n_tot": 0, "run_wall": 0.1, "run_note": "no_json_line", "has_entry": false, "kind": "NO_ENTRY"}
+{"file": "mm1-02__d3__retry.py", "task_id": "mm1-02", "template": "mm1", "in_probe_set": true, "code_lines": 330, "has_obs": true, "n_in": 3, "n_tot": 4, "run_wall": 3.9, "run_note": "ok", "has_entry": true, "missing_fields": [], "agree": "3/4", "kind": "OK"}
+{"file": "mm1-07__d1__retry.py", "task_id": "mm1-07", "template": "mm1", "in_probe_set": false, "code_lines": 489, "has_obs": true, "n_in": 0, "n_tot": 4, "run_wall": 0.3, "run_note": "ok", "has_entry": true, "missing_fields": [], "agree": "0/4", "kind": "OK"}
+{"file": "mm1K-05__d2__retry.py", "task_id": "mm1K-05", "template": "mm1K", "in_probe_set": false, "code_lines": 462, "has_obs": false, "n_in": 0, "n_tot": 0, "run_wall": 420.0, "run_note": "python', 'bench_v1\\\\exp_2026-10-19\\\\second_model\\\\qwen3.8flash_20261019_retry17\\\\mm1K-05__d2__retry.py', '--seeds', '10', '--horizon', '40000', '--seed-start', '1', '--pert', 'none']' timed out after 420 seconds", "has_entry": true, "kind": "CRASH"}
+{"file": "mmc-03__d1__retry.py", "task_id": "mmc-03", "template": "mmc", "in_probe_set": false, "code_lines": 411, "has_obs": false, "n_in": 0, "n_tot": 0, "run_wall": 0.2, "run_note": "en3.8flash_20261019_retry17\\mmc-03__d1__retry.py\", line 170, in main\n    if servers[k] is not None and servers[k] < next_event_t:\n                                  ^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '<' not supported between instances of 'tuple' and 'float'\n", "has_entry": true, "kind": "CRASH"}
+{"file": "mmc-04__d1__retry.py", "task_id": "mmc-04", "template": "mmc", "in_probe_set": false, "code_lines": 323, "has_obs": false, "n_in": 0, "n_tot": 0, "syntax_err": "unexpected indent (mmc-04__d1__retry.py, line 42)", "kind": "SYNTAX"}
+{"file": "mmcK-03__d3__retry.py", "task_id": "mmcK-03", "template": "mmcK", "in_probe_set": false, "code_lines": 280, "has_obs": false, "n_in": 0, "n_tot": 0, "run_wall": 0.1, "run_note": "no_json_line", "has_entry": false, "kind": "NO_ENTRY"}
+{"file": "mmcK-06__d1__retry.py", "task_id": "mmcK-06", "template": "mmcK", "in_probe_set": false, "code_lines": 668, "has_obs": true, "n_in": 0, "n_tot": 4, "run_wall": 3.4, "run_note": "ok", "has_entry": true, "missing_fields": [], "agree": "0/4", "kind": "OK"}

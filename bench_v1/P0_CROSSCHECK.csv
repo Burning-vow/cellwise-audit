@@ -1,0 +1,1083 @@
+task_id,template,stage,pert,obs,est,truth,rel,tau,gate,note,seeds,horizon
+mm1-01,mm1,J1,none,W,9.987827,10.0,0.001217,0.01,PASS,tau=0.01,10,40000.0
+mm1-01,mm1,J1,none,L,0.665048,0.666667,0.002428,0.01,PASS,tau=0.01,10,40000.0
+mm1-01,mm1,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+mm1-01,mm1,J1,none,busy_frac,0.399069,0.4,0.002328,0.01,PASS,tau=0.01,10,40000.0
+mm1-01,mm1,J1,none,p_wait,0.39961,0.4,0.000975,0.01,PASS,tau=0.01,10,40000.0
+mm1-01,mm1,J2,none,J2a_little,0.665048,,1.283998e-05,0.01,PASS,ok,10,40000.0
+mm1-01,mm1,J2,none,J2b_flow,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mm1-01,mm1,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mm1-01,mm1,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mm1-01,mm1,J3,none,J3a_util_pasta,0.399069,,1.105072e-03,0.01,PASS,ok  field=busy_util,10,40000.0
+mm1-01,mm1,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mm1-01,mm1,J0,none,J0a_arrival_lambda,119853.0,120000.0,1.225000e-03,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-01,mm1,J0,none,J0b_rate_flow,119853.0,119853.0,0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-01,mm1,J0,none,J0c_rate_lambda,3.9951,4.0,1.225000e-03,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-01,mm1,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-01,mm1,J4,lam_up,W,9.987827,11.107135,-0.112067,0.01,PASS,se_diff=0.006456751684819908 powered=False,10,40000.0
+mm1-01,mm1,J4,mu_up,W,9.987827,7.050475,-0.294093,0.01,PASS,se_diff=0.00546533588238744 powered=False,10,40000.0
+mm1-01,mm1,J4,c_up,W,9.987827,6.242381,-0.375001,0.01,PASS,se_diff=0.004992082471839945 powered=False,10,40000.0
+mm1-02,mm1,J1,none,W,7.491407,7.5,0.001146,0.01,PASS,tau=0.01,10,40000.0
+mm1-02,mm1,J1,none,L,0.49882,0.5,0.002360,0.01,PASS,tau=0.01,10,40000.0
+mm1-02,mm1,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+mm1-02,mm1,J1,none,busy_frac,0.332558,0.333333,0.002325,0.01,PASS,tau=0.01,10,40000.0
+mm1-02,mm1,J1,none,p_wait,0.333204,0.333333,0.000387,0.01,PASS,tau=0.01,10,40000.0
+mm1-02,mm1,J2,none,J2a_little,0.49882,,8.600968e-06,0.01,PASS,ok,10,40000.0
+mm1-02,mm1,J2,none,J2b_flow,,,8.343554e-07,0.01,PASS,ok,10,40000.0
+mm1-02,mm1,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mm1-02,mm1,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mm1-02,mm1,J3,none,J3a_util_pasta,0.332558,,1.104319e-03,0.01,PASS,ok  field=busy_util,10,40000.0
+mm1-02,mm1,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mm1-02,mm1,J0,none,J0a_arrival_lambda,119853.0,120000.0,1.225000e-03,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-02,mm1,J0,none,J0b_rate_flow,119853.1,119853.09,8.343547e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-02,mm1,J0,none,J0c_rate_lambda,3.995103,4.0,1.224250e-03,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-02,mm1,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-02,mm1,J4,lam_up,W,7.491407,8.105608,-0.081987,0.01,PASS,se_diff=0.005128942039513008 powered=False,10,40000.0
+mm1-02,mm1,J4,mu_up,W,7.491407,5.447191,-0.272875,0.01,PASS,se_diff=0.00449684117813089 powered=False,10,40000.0
+mm1-02,mm1,J4,c_up,W,7.491407,5.1364,-0.314361,0.01,PASS,se_diff=0.004094874524332908 powered=False,10,40000.0
+mm1-03,mm1,J1,none,W,14.976176,15.0,0.001588,0.01,PASS,tau=0.01,10,40000.0
+mm1-03,mm1,J1,none,L,1.49656,1.5,0.002293,0.01,PASS,tau=0.01,10,40000.0
+mm1-03,mm1,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+mm1-03,mm1,J1,none,busy_frac,0.599377,0.6,0.001038,0.01,PASS,tau=0.01,10,40000.0
+mm1-03,mm1,J1,none,p_wait,0.599289,0.6,0.001185,0.01,PASS,tau=0.01,10,40000.0
+mm1-03,mm1,J2,none,J2a_little,1.49656,,9.985436e-06,0.01,PASS,ok,10,40000.0
+mm1-03,mm1,J2,none,J2b_flow,,,5.559540e-07,0.01,PASS,ok,10,40000.0
+mm1-03,mm1,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mm1-03,mm1,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mm1-03,mm1,J3,none,J3a_util_pasta,0.599377,,3.225015e-04,0.01,PASS,ok  field=busy_util,10,40000.0
+mm1-03,mm1,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mm1-03,mm1,J0,none,J0a_arrival_lambda,179871.0,180000.0,7.166667e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-03,mm1,J0,none,J0b_rate_flow,179871.1,179871.09,5.559537e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-03,mm1,J0,none,J0c_rate_lambda,5.995703,6.0,7.161667e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-03,mm1,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-03,mm1,J4,lam_up,W,14.976176,19.314319,-0.289670,0.01,PASS,se_diff=0.011027349577218641 powered=False,10,40000.0
+mm1-03,mm1,J4,mu_up,W,14.976176,9.230406,-0.383661,0.01,PASS,se_diff=0.005037251060010104 powered=False,10,40000.0
+mm1-03,mm1,J4,c_up,W,14.976176,6.592285,-0.559815,0.01,PASS,se_diff=0.004706746950988889 powered=False,10,40000.0
+mm1-04,mm1,J1,none,W,9.997858,10.0,0.000214,0.01,PASS,tau=0.01,10,40000.0
+mm1-04,mm1,J1,none,L,0.999075,1.0,0.000925,0.01,PASS,tau=0.01,10,40000.0
+mm1-04,mm1,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+mm1-04,mm1,J1,none,busy_frac,0.499483,0.5,0.001034,0.01,PASS,tau=0.01,10,40000.0
+mm1-04,mm1,J1,none,p_wait,0.499789,0.5,0.000422,0.01,PASS,tau=0.01,10,40000.0
+mm1-04,mm1,J2,none,J2a_little,0.999075,,5.218091e-06,0.01,PASS,ok,10,40000.0
+mm1-04,mm1,J2,none,J2b_flow,,,5.559540e-07,0.01,PASS,ok,10,40000.0
+mm1-04,mm1,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mm1-04,mm1,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mm1-04,mm1,J3,none,J3a_util_pasta,0.499483,,3.181623e-04,0.01,PASS,ok  field=busy_util,10,40000.0
+mm1-04,mm1,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mm1-04,mm1,J0,none,J0a_arrival_lambda,179871.0,180000.0,7.166667e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-04,mm1,J0,none,J0b_rate_flow,179871.1,179871.09,5.559537e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-04,mm1,J0,none,J0c_rate_lambda,5.995703,6.0,7.161667e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-04,mm1,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-04,mm1,J4,lam_up,W,9.997858,11.754155,-0.175667,0.01,PASS,se_diff=0.007342526820420719 powered=False,10,40000.0
+mm1-04,mm1,J4,mu_up,W,9.997858,6.668353,-0.333022,0.01,PASS,se_diff=0.003822065552656819 powered=False,10,40000.0
+mm1-04,mm1,J4,c_up,W,9.997858,5.331931,-0.466693,0.01,PASS,se_diff=0.003482487851628827 powered=False,10,40000.0
+mm1-05,mm1,J1,none,W,19.961445,20.0,0.001928,0.01,PASS,tau=0.01,10,40000.0
+mm1-05,mm1,J1,none,L,2.326783,2.333333,0.002807,0.01,PASS,tau=0.01,10,40000.0
+mm1-05,mm1,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+mm1-05,mm1,J1,none,busy_frac,0.699244,0.7,0.001080,0.01,PASS,tau=0.01,10,40000.0
+mm1-05,mm1,J1,none,p_wait,0.699168,0.7,0.001189,0.01,PASS,tau=0.01,10,40000.0
+mm1-05,mm1,J2,none,J2a_little,2.326783,,2.593119e-05,0.01,PASS,ok,10,40000.0
+mm1-05,mm1,J2,none,J2b_flow,,,1.620491e-05,0.01,PASS,ok,10,40000.0
+mm1-05,mm1,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mm1-05,mm1,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mm1-05,mm1,J3,none,J3a_util_pasta,0.699244,,1.730440e-04,0.01,PASS,ok  field=busy_util,10,40000.0
+mm1-05,mm1,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mm1-05,mm1,J0,none,J0a_arrival_lambda,209812.9,210000.0,8.909524e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-05,mm1,J0,none,J0b_rate_flow,209809.5,209809.5,0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-05,mm1,J0,none,J0c_rate_lambda,6.99365,7.0,9.071429e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-05,mm1,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-05,mm1,J4,lam_up,W,19.961445,30.671919,-0.536558,0.01,PASS,se_diff=0.020352128074257604 powered=False,10,40000.0
+mm1-05,mm1,J4,mu_up,W,19.961445,10.90526,-0.453684,0.01,PASS,se_diff=0.008570023492101255 powered=False,10,40000.0
+mm1-05,mm1,J4,c_up,W,19.961445,6.837064,-0.657487,0.01,PASS,se_diff=0.008099858186577104 powered=False,10,40000.0
+mm1-06,mm1,J1,none,W,11.992528,12.0,0.000623,0.01,PASS,tau=0.01,10,40000.0
+mm1-06,mm1,J1,none,L,1.397899,1.4,0.001501,0.01,PASS,tau=0.01,10,40000.0
+mm1-06,mm1,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+mm1-06,mm1,J1,none,busy_frac,0.582707,0.583333,0.001073,0.01,PASS,tau=0.01,10,40000.0
+mm1-06,mm1,J1,none,p_wait,0.582764,0.583333,0.000975,0.01,PASS,tau=0.01,10,40000.0
+mm1-06,mm1,J2,none,J2a_little,1.397899,,2.328291e-05,0.01,PASS,ok,10,40000.0
+mm1-06,mm1,J2,none,J2b_flow,,,1.096215e-05,0.01,PASS,ok,10,40000.0
+mm1-06,mm1,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mm1-06,mm1,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mm1-06,mm1,J3,none,J3a_util_pasta,0.582707,,1.720419e-04,0.01,PASS,ok  field=busy_util,10,40000.0
+mm1-06,mm1,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mm1-06,mm1,J0,none,J0a_arrival_lambda,209812.9,210000.0,8.909524e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-06,mm1,J0,none,J0b_rate_flow,209810.6,209810.61000000002,4.766203e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-06,mm1,J0,none,J0c_rate_lambda,6.993687,7.0,9.018571e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-06,mm1,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-06,mm1,J4,lam_up,W,11.992528,15.168467,-0.264826,0.01,PASS,se_diff=0.01061644309793681 powered=False,10,40000.0
+mm1-06,mm1,J4,mu_up,W,11.992528,7.502657,-0.374389,0.01,PASS,se_diff=0.006330061316151671 powered=False,10,40000.0
+mm1-06,mm1,J4,c_up,W,11.992528,5.464236,-0.544363,0.01,PASS,se_diff=0.005885708965253437 powered=False,10,40000.0
+mm1-07,mm1,J1,none,W,29.899034,30.0,0.003366,0.01,PASS,tau=0.01,10,40000.0
+mm1-07,mm1,J1,none,L,3.983204,4.0,0.004199,0.01,PASS,tau=0.01,10,40000.0
+mm1-07,mm1,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+mm1-07,mm1,J1,none,busy_frac,0.799432,0.8,0.000710,0.01,PASS,tau=0.01,10,40000.0
+mm1-07,mm1,J1,none,p_wait,0.799018,0.8,0.001228,0.01,PASS,tau=0.01,10,40000.0
+mm1-07,mm1,J2,none,J2a_little,3.983204,,5.348274e-06,0.01,PASS,ok,10,40000.0
+mm1-07,mm1,J2,none,J2b_flow,,,4.170194e-06,0.01,PASS,ok,10,40000.0
+mm1-07,mm1,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mm1-07,mm1,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mm1-07,mm1,J3,none,J3a_util_pasta,0.799432,,1.317185e-04,0.01,PASS,ok  field=busy_util,10,40000.0
+mm1-07,mm1,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mm1-07,mm1,J0,none,J0a_arrival_lambda,239797.0,240000.0,8.458333e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-07,mm1,J0,none,J0b_rate_flow,239798.0,239798.01,4.170177e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-07,mm1,J0,none,J0c_rate_lambda,7.993267,8.0,8.416250e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-07,mm1,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-07,mm1,J4,lam_up,W,29.899034,74.895125,-1.504935,0.01,PASS,se_diff=0.06543693614416489 powered=False,10,40000.0
+mm1-07,mm1,J4,mu_up,W,29.899034,13.317923,-0.554570,0.01,PASS,se_diff=0.012556590750201635 powered=False,10,40000.0
+mm1-07,mm1,J4,c_up,W,29.899034,7.143939,-0.761065,0.01,PASS,se_diff=0.012222461793793875 powered=False,10,40000.0
+mm1-08,mm1,J1,none,W,14.97982,15.0,0.001345,0.01,PASS,tau=0.01,10,40000.0
+mm1-08,mm1,J1,none,L,1.99564,2.0,0.002180,0.01,PASS,tau=0.01,10,40000.0
+mm1-08,mm1,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+mm1-08,mm1,J1,none,busy_frac,0.666191,0.666667,0.000714,0.01,PASS,tau=0.01,10,40000.0
+mm1-08,mm1,J1,none,p_wait,0.665999,0.666667,0.001002,0.01,PASS,tau=0.01,10,40000.0
+mm1-08,mm1,J2,none,J2a_little,1.99564,,1.046766e-05,0.01,PASS,ok,10,40000.0
+mm1-08,mm1,J2,none,J2b_flow,,,4.170194e-07,0.01,PASS,ok,10,40000.0
+mm1-08,mm1,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mm1-08,mm1,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mm1-08,mm1,J3,none,J3a_util_pasta,0.666191,,1.328448e-04,0.01,PASS,ok  field=busy_util,10,40000.0
+mm1-08,mm1,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mm1-08,mm1,J0,none,J0a_arrival_lambda,239797.0,240000.0,8.458333e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-08,mm1,J0,none,J0b_rate_flow,239796.9,239796.9,0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-08,mm1,J0,none,J0c_rate_lambda,7.99323,8.0,8.462500e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-08,mm1,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1-08,mm1,J4,lam_up,W,14.97982,21.431854,-0.430715,0.01,PASS,se_diff=0.015575856595660669 powered=False,10,40000.0
+mm1-08,mm1,J4,mu_up,W,14.97982,8.573056,-0.427693,0.01,PASS,se_diff=0.007619287183515453 powered=False,10,40000.0
+mm1-08,mm1,J4,c_up,W,14.97982,5.625329,-0.624473,0.01,PASS,se_diff=0.0071374267480494615 powered=False,10,40000.0
+mmc-01,mmc,J1,none,W,33.234366,33.333333,0.002969,0.01,PASS,tau=0.01,10,40000.0
+mmc-01,mmc,J1,none,L,4.42754,4.444444,0.003803,0.01,PASS,tau=0.01,10,40000.0
+mmc-01,mmc,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+mmc-01,mmc,J1,none,busy_frac,0.799428,0.8,0.000715,0.01,PASS,tau=0.01,10,40000.0
+mmc-01,mmc,J1,none,p_wait,0.709912,0.711111,0.001686,0.01,PASS,tau=0.01,10,40000.0
+mmc-01,mmc,J2,none,J2a_little,4.42754,,6.415404e-06,0.01,PASS,ok,10,40000.0
+mmc-01,mmc,J2,none,J2b_flow,,,2.502116e-06,0.01,PASS,ok,10,40000.0
+mmc-01,mmc,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mmc-01,mmc,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mmc-01,mmc,J3,none,J3a_util_pasta,0.799428,,1.284669e-04,0.01,PASS,ok  field=busy_util,10,40000.0
+mmc-01,mmc,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mmc-01,mmc,J0,none,J0a_arrival_lambda,239797.0,240000.0,8.458333e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-01,mmc,J0,none,J0b_rate_flow,239797.6,239797.59,4.170184e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-01,mmc,J0,none,J0c_rate_lambda,7.993253,8.0,8.433750e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-01,mmc,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-01,mmc,J4,lam_up,W,33.234366,78.020149,-1.347574,0.01,PASS,se_diff=0.05978544557690306 powered=False,10,40000.0
+mmc-01,mmc,J4,mu_up,W,33.234366,16.239597,-0.511361,0.01,PASS,se_diff=0.011363958216296256 powered=False,10,40000.0
+mmc-01,mmc,J4,c_up,W,33.234366,14.344816,-0.568374,0.01,PASS,se_diff=0.011138383118246628 powered=False,10,40000.0
+mmc-02,mmc,J1,none,W,17.973997,18.0,0.001445,0.01,PASS,tau=0.01,10,40000.0
+mmc-02,mmc,J1,none,L,2.394527,2.4,0.002280,0.01,PASS,tau=0.01,10,40000.0
+mmc-02,mmc,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+mmc-02,mmc,J1,none,busy_frac,0.666189,0.666667,0.000717,0.01,PASS,tau=0.01,10,40000.0
+mmc-02,mmc,J1,none,p_wait,0.532077,0.533333,0.002355,0.01,PASS,tau=0.01,10,40000.0
+mmc-02,mmc,J2,none,J2a_little,2.394527,,9.243020e-06,0.01,PASS,ok,10,40000.0
+mmc-02,mmc,J2,none,J2b_flow,,,4.170194e-07,0.01,PASS,ok,10,40000.0
+mmc-02,mmc,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mmc-02,mmc,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mmc-02,mmc,J3,none,J3a_util_pasta,0.666189,,1.298430e-04,0.01,PASS,ok  field=busy_util,10,40000.0
+mmc-02,mmc,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mmc-02,mmc,J0,none,J0a_arrival_lambda,239797.0,240000.0,8.458333e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-02,mmc,J0,none,J0b_rate_flow,239796.9,239796.9,0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-02,mmc,J0,none,J0c_rate_lambda,7.99323,8.0,8.462500e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-02,mmc,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-02,mmc,J4,lam_up,W,17.973997,24.262458,-0.349864,0.01,PASS,se_diff=0.012840879885342079 powered=False,10,40000.0
+mmc-02,mmc,J4,mu_up,W,17.973997,11.1778,-0.378113,0.01,PASS,se_diff=0.0060756690315728465 powered=False,10,40000.0
+mmc-02,mmc,J4,c_up,W,17.973997,11.086056,-0.383217,0.01,PASS,se_diff=0.005812084641822203 powered=False,10,40000.0
+mmc-03,mmc,J1,none,W,7.143939,7.142857,0.000151,0.01,PASS,tau=0.01,10,40000.0
+mmc-03,mmc,J1,none,L,0.951722,0.952381,0.000692,0.01,PASS,tau=0.01,10,40000.0
+mmc-03,mmc,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+mmc-03,mmc,J1,none,busy_frac,0.399716,0.4,0.000710,0.01,PASS,tau=0.01,10,40000.0
+mmc-03,mmc,J1,none,p_wait,0.228413,0.228571,0.000691,0.01,PASS,tau=0.01,10,40000.0
+mmc-03,mmc,J2,none,J2a_little,0.951722,,2.144524e-06,0.01,PASS,ok,10,40000.0
+mmc-03,mmc,J2,none,J2b_flow,,,4.170194e-07,0.01,PASS,ok,10,40000.0
+mmc-03,mmc,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mmc-03,mmc,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mmc-03,mmc,J3,none,J3a_util_pasta,0.399716,,1.354712e-04,0.01,PASS,ok  field=busy_util,10,40000.0
+mmc-03,mmc,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mmc-03,mmc,J0,none,J0a_arrival_lambda,239797.0,240000.0,8.458333e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-03,mmc,J0,none,J0b_rate_flow,239797.1,239797.11,4.170192e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-03,mmc,J0,none,J0c_rate_lambda,7.993237,8.0,8.453750e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-03,mmc,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-03,mmc,J4,lam_up,W,7.143939,7.619009,-0.066500,0.01,PASS,se_diff=0.003665066901907007 powered=False,10,40000.0
+mmc-03,mmc,J4,mu_up,W,7.143939,5.347931,-0.251403,0.01,PASS,se_diff=0.0027430863700225704 powered=False,10,40000.0
+mmc-03,mmc,J4,c_up,W,7.143939,6.142686,-0.140154,0.01,PASS,se_diff=0.002614575861752116 powered=False,10,40000.0
+mmc-04,mmc,J1,none,W,32.597522,32.727273,0.003965,0.01,PASS,tau=0.01,10,40000.0
+mmc-04,mmc,J1,none,L,5.428207,5.454545,0.004829,0.01,PASS,tau=0.01,10,40000.0
+mmc-04,mmc,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+mmc-04,mmc,J1,none,busy_frac,0.832734,0.833333,0.000719,0.01,PASS,tau=0.01,10,40000.0
+mmc-04,mmc,J1,none,p_wait,0.75632,0.757576,0.001658,0.01,PASS,tau=0.01,10,40000.0
+mmc-04,mmc,J2,none,J2a_little,5.428207,,1.075873e-05,0.01,PASS,ok,10,40000.0
+mmc-04,mmc,J2,none,J2b_flow,,,6.672532e-07,0.01,PASS,ok,10,40000.0
+mmc-04,mmc,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mmc-04,mmc,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mmc-04,mmc,J3,none,J3a_util_pasta,0.832734,,1.592145e-04,0.01,PASS,ok  field=busy_util,10,40000.0
+mmc-04,mmc,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mmc-04,mmc,J0,none,J0a_arrival_lambda,299736.3,300000.0,8.790000e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-04,mmc,J0,none,J0b_rate_flow,299736.5,299736.51,3.336264e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-04,mmc,J0,none,J0c_rate_lambda,9.991217,10.0,8.783000e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-04,mmc,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-04,mmc,J4,lam_up,W,32.597522,122.463468,-2.756834,0.01,PASS,se_diff=0.1757575564766186 powered=False,10,40000.0
+mmc-04,mmc,J4,mu_up,W,32.597522,14.3829,-0.558773,0.01,PASS,se_diff=0.01332324289541079 powered=False,10,40000.0
+mmc-04,mmc,J4,c_up,W,32.597522,12.248214,-0.624259,0.01,PASS,se_diff=0.013088902278553095 powered=False,10,40000.0
+mmc-05,mmc,J1,none,W,8.000975,8.0,0.000122,0.01,PASS,tau=0.01,10,40000.0
+mmc-05,mmc,J1,none,L,1.332328,1.333333,0.000754,0.01,PASS,tau=0.01,10,40000.0
+mmc-05,mmc,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+mmc-05,mmc,J1,none,busy_frac,0.499643,0.5,0.000714,0.01,PASS,tau=0.01,10,40000.0
+mmc-05,mmc,J1,none,p_wait,0.332834,0.333333,0.001497,0.01,PASS,tau=0.01,10,40000.0
+mmc-05,mmc,J2,none,J2a_little,1.332328,,1.232814e-06,0.01,PASS,ok,10,40000.0
+mmc-05,mmc,J2,none,J2b_flow,,,2.001760e-06,0.01,PASS,ok,10,40000.0
+mmc-05,mmc,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mmc-05,mmc,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mmc-05,mmc,J3,none,J3a_util_pasta,0.499643,,1.631165e-04,0.01,PASS,ok  field=busy_util,10,40000.0
+mmc-05,mmc,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mmc-05,mmc,J0,none,J0a_arrival_lambda,299736.3,300000.0,8.790000e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-05,mmc,J0,none,J0b_rate_flow,299736.9,299736.9,0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-05,mmc,J0,none,J0c_rate_lambda,9.99123,10.0,8.770000e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-05,mmc,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-05,mmc,J4,lam_up,W,8.000975,8.962782,-0.120211,0.01,PASS,se_diff=0.005002141313434706 powered=False,10,40000.0
+mmc-05,mmc,J4,mu_up,W,8.000975,5.716646,-0.285506,0.01,PASS,se_diff=0.0037283857191782455 powered=False,10,40000.0
+mmc-05,mmc,J4,c_up,W,8.000975,6.274795,-0.215746,0.01,PASS,se_diff=0.003538061121456127 powered=False,10,40000.0
+mmc-06,mmc,J1,none,W,11.75099,11.764706,0.001166,0.01,PASS,tau=0.01,10,40000.0
+mmc-06,mmc,J1,none,L,2.739831,2.745098,0.001919,0.01,PASS,tau=0.01,10,40000.0
+mmc-06,mmc,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+mmc-06,mmc,J1,none,busy_frac,0.699532,0.7,0.000669,0.01,PASS,tau=0.01,10,40000.0
+mmc-06,mmc,J1,none,p_wait,0.575908,0.576471,0.000977,0.01,PASS,tau=0.01,10,40000.0
+mmc-06,mmc,J2,none,J2a_little,2.739831,,1.606193e-05,0.01,PASS,ok,10,40000.0
+mmc-06,mmc,J2,none,J2b_flow,,,7.624859e-06,0.01,PASS,ok,10,40000.0
+mmc-06,mmc,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mmc-06,mmc,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mmc-06,mmc,J3,none,J3a_util_pasta,0.699532,,1.012820e-04,0.01,PASS,ok  field=busy_util,10,40000.0
+mmc-06,mmc,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mmc-06,mmc,J0,none,J0a_arrival_lambda,419679.9,420000.0,7.621429e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-06,mmc,J0,none,J0b_rate_flow,419676.7,419676.69,2.382787e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-06,mmc,J0,none,J0c_rate_lambda,13.989223,14.0,7.697857e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-06,mmc,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-06,mmc,J4,lam_up,W,11.75099,17.070664,-0.452700,0.01,PASS,se_diff=0.018281050074869402 powered=False,10,40000.0
+mmc-06,mmc,J4,mu_up,W,11.75099,6.991354,-0.405041,0.01,PASS,se_diff=0.0063110425565940514 powered=False,10,40000.0
+mmc-06,mmc,J4,c_up,W,11.75099,6.758809,-0.424831,0.01,PASS,se_diff=0.006128195051578886 powered=False,10,40000.0
+mmc-07,mmc,J1,none,W,14.344816,14.34683,0.000140,0.01,PASS,tau=0.01,10,40000.0
+mmc-07,mmc,J1,none,L,1.91103,1.912911,0.000983,0.01,PASS,tau=0.01,10,40000.0
+mmc-07,mmc,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+mmc-07,mmc,J1,none,busy_frac,0.532952,0.533333,0.000714,0.01,PASS,tau=0.01,10,40000.0
+mmc-07,mmc,J1,none,p_wait,0.273015,0.273797,0.002856,0.01,PASS,tau=0.01,10,40000.0
+mmc-07,mmc,J2,none,J2a_little,1.91103,,2.494210e-06,0.01,PASS,ok,10,40000.0
+mmc-07,mmc,J2,none,J2b_flow,,,4.170194e-07,0.01,PASS,ok,10,40000.0
+mmc-07,mmc,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mmc-07,mmc,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mmc-07,mmc,J3,none,J3a_util_pasta,0.532952,,1.304683e-04,0.01,PASS,ok  field=busy_util,10,40000.0
+mmc-07,mmc,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mmc-07,mmc,J0,none,J0a_arrival_lambda,239797.0,240000.0,8.458333e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-07,mmc,J0,none,J0b_rate_flow,239797.1,239797.11,4.170192e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-07,mmc,J0,none,J0c_rate_lambda,7.993237,8.0,8.453750e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-07,mmc,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-07,mmc,J4,lam_up,W,14.344816,15.861588,-0.105737,0.01,PASS,se_diff=0.004983138480730422 powered=False,10,40000.0
+mmc-07,mmc,J4,mu_up,W,14.344816,10.519298,-0.266683,0.01,PASS,se_diff=0.0029518261086618246 powered=False,10,40000.0
+mmc-07,mmc,J4,c_up,W,14.344816,12.45676,-0.131619,0.01,PASS,se_diff=0.0029289120996153885 powered=False,10,40000.0
+mmc-08,mmc,J1,none,W,11.086056,11.084746,0.000118,0.01,PASS,tau=0.01,10,40000.0
+mmc-08,mmc,J1,none,L,1.476894,1.477966,0.000725,0.01,PASS,tau=0.01,10,40000.0
+mmc-08,mmc,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+mmc-08,mmc,J1,none,busy_frac,0.444128,0.444444,0.000711,0.01,PASS,tau=0.01,10,40000.0
+mmc-08,mmc,J1,none,p_wait,0.180127,0.180791,0.003673,0.01,PASS,tau=0.01,10,40000.0
+mmc-08,mmc,J2,none,J2a_little,1.476894,,1.133916e-06,0.01,PASS,ok,10,40000.0
+mmc-08,mmc,J2,none,J2b_flow,,,1.251058e-06,0.01,PASS,ok,10,40000.0
+mmc-08,mmc,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mmc-08,mmc,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mmc-08,mmc,J3,none,J3a_util_pasta,0.444128,,1.327195e-04,0.01,PASS,ok  field=busy_util,10,40000.0
+mmc-08,mmc,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mmc-08,mmc,J0,none,J0a_arrival_lambda,239797.0,240000.0,8.458333e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-08,mmc,J0,none,J0b_rate_flow,239797.3,239797.28999999998,4.170189e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-08,mmc,J0,none,J0c_rate_lambda,7.993243,8.0,8.446250e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-08,mmc,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mmc-08,mmc,J4,lam_up,W,11.086056,11.706476,-0.055964,0.01,PASS,se_diff=0.0032670934533789477 powered=False,10,40000.0
+mmc-08,mmc,J4,mu_up,W,11.086056,8.441993,-0.238503,0.01,PASS,se_diff=0.00227455667446287 powered=False,10,40000.0
+mmc-08,mmc,J4,c_up,W,11.086056,10.196863,-0.080208,0.01,PASS,se_diff=0.0023252425642360467 powered=False,10,40000.0
+mm1K-01,mm1K,J1,none,W,11.411029,11.426471,0.001351,0.01,PASS,tau=0.01,10,40000.0
+mm1K-01,mm1K,J1,none,L,1.076135,1.078418,0.002117,0.01,PASS,tau=0.01,10,40000.0
+mm1K-01,mm1K,J1,none,p_loss,0.056259,0.056211,0.000854,0.03,PASS,tau=0.03,10,40000.0
+mm1K-01,mm1K,J1,none,busy_frac,0.565651,0.566273,0.001098,0.01,PASS,tau=0.01,10,40000.0
+mm1K-01,mm1K,J1,none,p_wait,0.50948,,,,NA,no_truth(该题无此真值),10,40000.0
+mm1K-01,mm1K,J2,none,J2a_little,1.076135,,1.974565e-06,0.01,PASS,ok,10,40000.0
+mm1K-01,mm1K,J2,none,J2b_flow,,,5.559540e-07,0.01,PASS,ok,10,40000.0
+mm1K-01,mm1K,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mm1K-01,mm1K,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mm1K-01,mm1K,J3,none,J3a_util_pasta,0.565649,,3.346598e-04,0.01,PASS,ok  field=busy_util,10,40000.0
+mm1K-01,mm1K,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mm1K-01,mm1K,J0,none,J0a_arrival_lambda,179871.0,180000.0,7.166667e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-01,mm1K,J0,none,J0b_rate_flow,169751.5,169751.49,5.890964e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-01,mm1K,J0,none,J0c_rate_lambda,5.658383,5.662445999999999,7.175344e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-01,mm1K,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-01,mm1K,J4,lam_up,W,11.411029,12.303116,-0.078178,0.01,PASS,se_diff=0.0032951136784709267 powered=False,10,40000.0
+mm1K-01,mm1K,J4,mu_up,W,11.411029,8.14886,-0.285879,0.01,PASS,se_diff=0.002448151420525284 powered=False,10,40000.0
+mm1K-01,mm1K,J4,c_up,W,11.411029,6.467728,-0.433204,0.01,PASS,se_diff=0.0022541140771645068 powered=False,10,40000.0
+mm1K-01,mm1K,J4,cap_down,p_loss,0.056259,0.099165,-0.762651,0.01,PASS,se_diff=0.012613384856491617 powered=False,10,40000.0
+mm1K-02,mm1K,J1,none,W,8.660603,8.666667,0.000700,0.01,PASS,tau=0.01,10,40000.0
+mm1K-02,mm1K,J1,none,L,0.837481,0.83871,0.001465,0.01,PASS,tau=0.01,10,40000.0
+mm1K-02,mm1K,J1,none,p_loss,0.032308,0.032258,0.001550,0.03,PASS,tau=0.03,10,40000.0
+mm1K-02,mm1K,J1,none,busy_frac,0.483391,0.483871,0.000992,0.01,PASS,tau=0.01,10,40000.0
+mm1K-02,mm1K,J1,none,p_wait,0.451598,,,,NA,no_truth(该题无此真值),10,40000.0
+mm1K-02,mm1K,J2,none,J2a_little,0.837481,,2.547322e-06,0.01,PASS,ok,10,40000.0
+mm1K-02,mm1K,J2,none,J2b_flow,,,5.559540e-07,0.01,PASS,ok,10,40000.0
+mm1K-02,mm1K,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mm1K-02,mm1K,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mm1K-02,mm1K,J3,none,J3a_util_pasta,0.483389,,2.279048e-04,0.01,PASS,ok  field=busy_util,10,40000.0
+mm1K-02,mm1K,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mm1K-02,mm1K,J0,none,J0a_arrival_lambda,179871.0,180000.0,7.166667e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-02,mm1K,J0,none,J0b_rate_flow,174059.7,174059.7,0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-02,mm1K,J0,none,J0c_rate_lambda,5.80199,5.806152,7.168259e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-02,mm1K,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-02,mm1K,J4,lam_up,W,8.660603,9.298289,-0.073631,0.01,PASS,se_diff=0.0033012741599454916 powered=False,10,40000.0
+mm1K-02,mm1K,J4,mu_up,W,8.660603,6.242761,-0.279177,0.01,PASS,se_diff=0.002078255376726822 powered=False,10,40000.0
+mm1K-02,mm1K,J4,c_up,W,8.660603,5.280582,-0.390275,0.01,PASS,se_diff=0.0018298997337027347 powered=False,10,40000.0
+mm1K-02,mm1K,J4,cap_down,p_loss,0.032308,0.066631,-1.062368,0.01,PASS,se_diff=0.016178286777972586 powered=False,10,40000.0
+mm1K-03,mm1K,J1,none,W,13.3431,13.349593,0.000486,0.01,PASS,tau=0.01,10,40000.0
+mm1K-03,mm1K,J1,none,L,1.561293,1.563065,0.001134,0.01,PASS,tau=0.01,10,40000.0
+mm1K-03,mm1K,J1,none,p_loss,0.121674,0.121847,0.001420,0.03,PASS,tau=0.03,10,40000.0
+mm1K-03,mm1K,J1,none,busy_frac,0.702286,0.702523,0.000337,0.01,PASS,tau=0.01,10,40000.0
+mm1K-03,mm1K,J1,none,p_wait,0.580196,,,,NA,no_truth(该题无此真值),10,40000.0
+mm1K-03,mm1K,J2,none,J2a_little,1.561293,,4.066469e-07,0.01,PASS,ok,10,40000.0
+mm1K-03,mm1K,J2,none,J2b_flow,,,1.251058e-06,0.01,PASS,ok,10,40000.0
+mm1K-03,mm1K,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mm1K-03,mm1K,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mm1K-03,mm1K,J3,none,J3a_util_pasta,0.702285,,3.099881e-04,0.01,PASS,ok  field=busy_util,10,40000.0
+mm1K-03,mm1K,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mm1K-03,mm1K,J0,none,J0a_arrival_lambda,239797.0,240000.0,8.458333e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-03,mm1K,J0,none,J0b_rate_flow,210620.2,210620.19,4.747883e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-03,mm1K,J0,none,J0c_rate_lambda,7.020673,7.0266079999999995,8.446465e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-03,mm1K,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-03,mm1K,J4,lam_up,W,13.3431,14.373509,-0.077224,0.01,PASS,se_diff=0.0034585775161896123 powered=False,10,40000.0
+mm1K-03,mm1K,J4,mu_up,W,13.3431,9.455547,-0.291353,0.01,PASS,se_diff=0.002704875453948084 powered=False,10,40000.0
+mm1K-03,mm1K,J4,c_up,W,13.3431,6.767157,-0.492835,0.01,PASS,se_diff=0.002270729499605963 powered=False,10,40000.0
+mm1K-03,mm1K,J4,cap_down,p_loss,0.121674,0.173109,-0.422728,0.01,PASS,se_diff=0.006288522664416807 powered=False,10,40000.0
+mm1K-04,mm1K,J1,none,W,10.067353,10.076923,0.000950,0.01,PASS,tau=0.01,10,40000.0
+mm1K-04,mm1K,J1,none,L,1.239904,1.241706,0.001451,0.01,PASS,tau=0.01,10,40000.0
+mm1K-04,mm1K,J1,none,p_loss,0.075512,0.075829,0.004180,0.03,PASS,tau=0.03,10,40000.0
+mm1K-04,mm1K,J1,none,busy_frac,0.615814,0.616114,0.000487,0.01,PASS,tau=0.01,10,40000.0
+mm1K-04,mm1K,J1,none,p_wait,0.540093,,,,NA,no_truth(该题无此真值),10,40000.0
+mm1K-04,mm1K,J2,none,J2a_little,1.239904,,1.018493e-06,0.01,PASS,ok,10,40000.0
+mm1K-04,mm1K,J2,none,J2b_flow,,,1.251058e-06,0.01,PASS,ok,10,40000.0
+mm1K-04,mm1K,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mm1K-04,mm1K,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mm1K-04,mm1K,J3,none,J3a_util_pasta,0.615813,,1.299096e-05,0.01,PASS,ok  field=busy_util,10,40000.0
+mm1K-04,mm1K,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mm1K-04,mm1K,J0,none,J0a_arrival_lambda,239797.0,240000.0,8.458333e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-04,mm1K,J0,none,J0b_rate_flow,221689.8,221689.80000000002,1.312818e-16,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-04,mm1K,J0,none,J0c_rate_lambda,7.38966,7.395904,8.442511e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-04,mm1K,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-04,mm1K,J4,lam_up,W,10.067353,10.869726,-0.079700,0.01,PASS,se_diff=0.003147224080295449 powered=False,10,40000.0
+mm1K-04,mm1K,J4,mu_up,W,10.067353,7.156123,-0.289175,0.01,PASS,se_diff=0.0028068919638611313 powered=False,10,40000.0
+mm1K-04,mm1K,J4,c_up,W,10.067353,5.470538,-0.456606,0.01,PASS,se_diff=0.002407795123956888 powered=False,10,40000.0
+mm1K-04,mm1K,J4,cap_down,p_loss,0.075512,0.122595,-0.623517,0.01,PASS,se_diff=0.009847967746512861 powered=False,10,40000.0
+mm1K-05,mm1K,J1,none,W,14.200127,14.212271,0.000854,0.01,PASS,tau=0.01,10,40000.0
+mm1K-05,mm1K,J1,none,L,1.78747,1.790286,0.001573,0.01,PASS,tau=0.01,10,40000.0
+mm1K-05,mm1K,J1,none,p_loss,0.160198,0.160216,0.000112,0.03,PASS,tau=0.03,10,40000.0
+mm1K-05,mm1K,J1,none,busy_frac,0.755387,0.755806,0.000554,0.01,PASS,tau=0.01,10,40000.0
+mm1K-05,mm1K,J1,none,p_wait,0.595006,,,,NA,no_truth(该题无此真值),10,40000.0
+mm1K-05,mm1K,J2,none,J2a_little,1.78747,,9.807532e-07,0.01,PASS,ok,10,40000.0
+mm1K-05,mm1K,J2,none,J2b_flow,,,7.412885e-07,0.01,PASS,ok,10,40000.0
+mm1K-05,mm1K,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mm1K-05,mm1K,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mm1K-05,mm1K,J3,none,J3a_util_pasta,0.755385,,1.615070e-04,0.01,PASS,ok  field=busy_util,10,40000.0
+mm1K-05,mm1K,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mm1K-05,mm1K,J0,none,J0a_arrival_lambda,269800.5,270000.0,7.388889e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-05,mm1K,J0,none,J0b_rate_flow,226578.9,226578.9,0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-05,mm1K,J0,none,J0c_rate_lambda,7.55263,7.558217999999999,7.393277e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-05,mm1K,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-05,mm1K,J4,lam_up,W,14.200127,15.254082,-0.074222,0.01,PASS,se_diff=0.003613859571786208 powered=False,10,40000.0
+mm1K-05,mm1K,J4,mu_up,W,14.200127,10.081244,-0.290060,0.01,PASS,se_diff=0.0029969946951915578 powered=False,10,40000.0
+mm1K-05,mm1K,J4,c_up,W,14.200127,6.926936,-0.512192,0.01,PASS,se_diff=0.0026914267783134964 powered=False,10,40000.0
+mm1K-05,mm1K,J4,cap_down,p_loss,0.160198,0.211947,-0.323031,0.01,PASS,se_diff=0.005921556826338795 powered=False,10,40000.0
+mm1K-06,mm1K,J1,none,W,10.738884,10.742857,0.000370,0.01,PASS,tau=0.01,10,40000.0
+mm1K-06,mm1K,J1,none,L,1.44287,1.444302,0.000991,0.01,PASS,tau=0.01,10,40000.0
+mm1K-06,mm1K,J1,none,p_loss,0.103607,0.103713,0.001022,0.03,PASS,tau=0.03,10,40000.0
+mm1K-06,mm1K,J1,none,busy_frac,0.671939,0.672215,0.000411,0.01,PASS,tau=0.01,10,40000.0
+mm1K-06,mm1K,J1,none,p_wait,0.568231,,,,NA,no_truth(该题无此真值),10,40000.0
+mm1K-06,mm1K,J2,none,J2a_little,1.44287,,7.518335e-07,0.01,PASS,ok,10,40000.0
+mm1K-06,mm1K,J2,none,J2b_flow,,,1.111933e-06,0.01,PASS,ok,10,40000.0
+mm1K-06,mm1K,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mm1K-06,mm1K,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mm1K-06,mm1K,J3,none,J3a_util_pasta,0.671938,,2.090967e-04,0.01,PASS,ok  field=busy_util,10,40000.0
+mm1K-06,mm1K,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mm1K-06,mm1K,J0,none,J0a_arrival_lambda,269800.5,270000.0,7.388889e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-06,mm1K,J0,none,J0b_rate_flow,241847.1,241847.09999999998,1.203398e-16,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-06,mm1K,J0,none,J0c_rate_lambda,8.06157,8.067537,7.396309e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-06,mm1K,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-06,mm1K,J4,lam_up,W,10.738884,11.58034,-0.078356,0.01,PASS,se_diff=0.003254262688826793 powered=False,10,40000.0
+mm1K-06,mm1K,J4,mu_up,W,10.738884,7.612481,-0.291129,0.01,PASS,se_diff=0.0022639498049608817 powered=False,10,40000.0
+mm1K-06,mm1K,J4,c_up,W,10.738884,5.575713,-0.480792,0.01,PASS,se_diff=0.0019801485607268982 powered=False,10,40000.0
+mm1K-06,mm1K,J4,cap_down,p_loss,0.103607,0.15412,-0.487544,0.01,PASS,se_diff=0.006373462546797053 powered=False,10,40000.0
+mm1K-07,mm1K,J1,none,W,13.230698,13.238185,0.000566,0.01,PASS,tau=0.01,10,40000.0
+mm1K-07,mm1K,J1,none,L,1.296813,1.298401,0.001223,0.01,PASS,tau=0.01,10,40000.0
+mm1K-07,mm1K,J1,none,p_loss,0.019145,0.0192,0.002865,0.03,PASS,tau=0.03,10,40000.0
+mm1K-07,mm1K,J1,none,busy_frac,0.58792,0.58848,0.000952,0.01,PASS,tau=0.01,10,40000.0
+mm1K-07,mm1K,J1,none,p_wait,0.56884,,,,NA,no_truth(该题无此真值),10,40000.0
+mm1K-07,mm1K,J2,none,J2a_little,1.296813,,2.520702e-06,0.01,PASS,ok,10,40000.0
+mm1K-07,mm1K,J2,none,J2b_flow,,,3.286642e-17,0.01,PASS,ok,10,40000.0
+mm1K-07,mm1K,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mm1K-07,mm1K,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mm1K-07,mm1K,J3,none,J3a_util_pasta,0.587918,,2.947690e-04,0.01,PASS,ok  field=busy_util,10,40000.0
+mm1K-07,mm1K,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mm1K-07,mm1K,J0,none,J0a_arrival_lambda,179871.0,180000.0,7.166667e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-07,mm1K,J0,none,J0b_rate_flow,176427.4,176427.38999999998,5.668054e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-07,mm1K,J0,none,J0c_rate_lambda,5.880913,5.88513,7.165517e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-07,mm1K,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-07,mm1K,J4,lam_up,W,13.230698,14.983094,-0.132449,0.01,PASS,se_diff=0.005265187289641879 powered=False,10,40000.0
+mm1K-07,mm1K,J4,mu_up,W,13.230698,8.871835,-0.329451,0.01,PASS,se_diff=0.0034798456415953668 powered=False,10,40000.0
+mm1K-07,mm1K,J4,c_up,W,13.230698,6.57428,-0.503104,0.01,PASS,se_diff=0.0030436253567881493 powered=False,10,40000.0
+mm1K-07,mm1K,J4,cap_down,p_loss,0.019145,0.032664,-0.706137,0.01,PASS,se_diff=0.024286756080093074 powered=False,10,40000.0
+mm1K-08,mm1K,J1,none,W,9.521316,9.52381,0.000262,0.01,PASS,tau=0.01,10,40000.0
+mm1K-08,mm1K,J1,none,L,0.943972,0.944882,0.000963,0.01,PASS,tau=0.01,10,40000.0
+mm1K-08,mm1K,J1,none,p_loss,0.007865,0.007874,0.001143,0.03,PASS,tau=0.03,10,40000.0
+mm1K-08,mm1K,J1,none,busy_frac,0.495553,0.496063,0.001028,0.01,PASS,tau=0.01,10,40000.0
+mm1K-08,mm1K,J1,none,p_wait,0.48804,,,,NA,no_truth(该题无此真值),10,40000.0
+mm1K-08,mm1K,J2,none,J2a_little,0.943972,,6.397743e-06,0.01,PASS,ok,10,40000.0
+mm1K-08,mm1K,J2,none,J2b_flow,,,5.559540e-07,0.01,PASS,ok,10,40000.0
+mm1K-08,mm1K,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mm1K-08,mm1K,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mm1K-08,mm1K,J3,none,J3a_util_pasta,0.495551,,3.247227e-04,0.01,PASS,ok  field=busy_util,10,40000.0
+mm1K-08,mm1K,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mm1K-08,mm1K,J0,none,J0a_arrival_lambda,179871.0,180000.0,7.166667e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-08,mm1K,J0,none,J0b_rate_flow,178456.3,178456.29,5.603613e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-08,mm1K,J0,none,J0c_rate_lambda,5.948543,5.9528099999999995,7.168043e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-08,mm1K,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mm1K-08,mm1K,J4,lam_up,W,9.521316,10.634652,-0.116931,0.01,PASS,se_diff=0.00510139574951463 powered=False,10,40000.0
+mm1K-08,mm1K,J4,mu_up,W,9.521316,6.565552,-0.310436,0.01,PASS,se_diff=0.0033981361067916753 powered=False,10,40000.0
+mm1K-08,mm1K,J4,c_up,W,9.521316,5.326559,-0.440565,0.01,PASS,se_diff=0.0030502488580411626 powered=False,10,40000.0
+mm1K-08,mm1K,J4,cap_down,p_loss,0.007865,0.01585,-1.015257,0.01,PASS,se_diff=0.031468089240113635 powered=False,10,40000.0
+mmcK-01,mmcK,J1,none,W,14.8187,14.835322,0.001120,0.01,PASS,tau=0.01,10,40000.0
+mmcK-01,mmcK,J1,none,L,1.374762,1.377049,0.001661,0.01,PASS,tau=0.01,10,40000.0
+mmcK-01,mmcK,J1,none,p_loss,0.071615,0.071777,0.002257,0.02,PASS,tau=0.02,10,40000.0
+mmcK-01,mmcK,J1,none,busy_frac,0.722699,0.723084,0.000532,0.01,PASS,tau=0.01,10,40000.0
+mmcK-01,mmcK,J1,none,p_wait,0.318068,,,,NA,no_truth(该题无此真值),10,40000.0
+mmcK-01,mmcK,J2,none,J2a_little,1.374762,,1.676316e-06,0.01,PASS,ok,10,40000.0
+mmcK-01,mmcK,J2,none,J2b_flow,,,5.559540e-07,0.01,PASS,ok,10,40000.0
+mmcK-01,mmcK,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mmcK-01,mmcK,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mmcK-01,mmcK,J3,none,J3a_util_pasta,0.556334,,5.351102e-04,0.01,PASS,ok  field=busy_util,10,40000.0
+mmcK-01,mmcK,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mmcK-01,mmcK,J0,none,J0a_arrival_lambda,179871.0,180000.0,7.166667e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-01,mmcK,J0,none,J0b_rate_flow,166989.5,166989.50999999998,5.988400e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-01,mmcK,J0,none,J0c_rate_lambda,5.566317,5.57031,7.168362e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-01,mmcK,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-01,mmcK,J4,lam_up,W,14.8187,15.402409,-0.039390,0.01,PASS,se_diff=0.0028704521425532655 powered=False,10,40000.0
+mmcK-01,mmcK,J4,mu_up,W,14.8187,11.231006,-0.242106,0.01,PASS,se_diff=0.0022693698591304892 powered=False,10,40000.0
+mmcK-01,mmcK,J4,c_up,W,14.8187,12.352883,-0.166399,0.01,PASS,se_diff=0.0020748704407943697 powered=False,10,40000.0
+mmcK-01,mmcK,J4,cap_down,p_loss,0.071615,0.128614,-0.795909,0.01,PASS,se_diff=0.011430804593430256 powered=False,10,40000.0
+mmcK-02,mmcK,J1,none,W,6.467728,6.471101,0.000521,0.01,PASS,tau=0.01,10,40000.0
+mmcK-02,mmcK,J1,none,L,0.640676,0.641444,0.001197,0.01,PASS,tau=0.01,10,40000.0
+mmcK-02,mmcK,J1,none,p_loss,0.008719,0.008756,0.004226,0.02,PASS,tau=0.02,10,40000.0
+mmcK-02,mmcK,J1,none,busy_frac,0.459151,0.459518,0.000799,0.01,PASS,tau=0.01,10,40000.0
+mmcK-02,mmcK,J1,none,p_wait,0.126506,,,,NA,no_truth(该题无此真值),10,40000.0
+mmcK-02,mmcK,J2,none,J2a_little,0.640676,,2.361468e-06,0.01,PASS,ok,10,40000.0
+mmcK-02,mmcK,J2,none,J2b_flow,,,5.559540e-07,0.01,PASS,ok,10,40000.0
+mmcK-02,mmcK,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mmcK-02,mmcK,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mmcK-02,mmcK,J3,none,J3a_util_pasta,0.297038,,4.489325e-04,0.01,PASS,ok  field=busy_util,10,40000.0
+mmcK-02,mmcK,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mmcK-02,mmcK,J0,none,J0a_arrival_lambda,179871.0,180000.0,7.166667e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-02,mmcK,J0,none,J0b_rate_flow,178302.8,178302.81,5.608437e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-02,mmcK,J0,none,J0c_rate_lambda,5.943427,5.947686,7.160768e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-02,mmcK,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-02,mmcK,J4,lam_up,W,6.467728,6.596828,-0.019961,0.01,PASS,se_diff=0.0024668257210290504 powered=False,10,40000.0
+mmcK-02,mmcK,J4,mu_up,W,6.467728,5.049785,-0.219234,0.01,PASS,se_diff=0.0017234395878332135 powered=False,10,40000.0
+mmcK-02,mmcK,J4,c_up,W,6.467728,6.037791,-0.066474,0.01,PASS,se_diff=0.0016790499512183202 powered=False,10,40000.0
+mmcK-02,mmcK,J4,cap_down,p_loss,0.008719,0.029481,-2.381236,0.01,PASS,se_diff=0.03314688931512497 powered=False,10,40000.0
+mmcK-03,mmcK,J1,none,W,16.059012,16.071778,0.000794,0.01,PASS,tau=0.01,10,40000.0
+mmcK-03,mmcK,J1,none,L,1.834075,1.836176,0.001144,0.01,PASS,tau=0.01,10,40000.0
+mmcK-03,mmcK,J1,none,p_loss,0.142713,0.143137,0.002962,0.02,PASS,tau=0.02,10,40000.0
+mmcK-03,mmcK,J1,none,busy_frac,0.825393,0.825273,0.000145,0.01,PASS,tau=0.01,10,40000.0
+mmcK-03,mmcK,J1,none,p_wait,0.40216,,,,NA,no_truth(该题无此真值),10,40000.0
+mmcK-03,mmcK,J2,none,J2a_little,1.834075,,2.114445e-06,0.01,PASS,ok,10,40000.0
+mmcK-03,mmcK,J2,none,J2b_flow,,,6.068431e-17,0.01,PASS,ok,10,40000.0
+mmcK-03,mmcK,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mmcK-03,mmcK,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mmcK-03,mmcK,J3,none,J3a_util_pasta,0.685336,,1.265073e-04,0.01,PASS,ok  field=busy_util,10,40000.0
+mmcK-03,mmcK,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mmcK-03,mmcK,J0,none,J0a_arrival_lambda,239797.0,240000.0,8.458333e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-03,mmcK,J0,none,J0b_rate_flow,205574.8,205574.79,4.864409e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-03,mmcK,J0,none,J0c_rate_lambda,6.852493,6.858296,8.461285e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-03,mmcK,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-03,mmcK,J4,lam_up,W,16.059012,16.730996,-0.041845,0.01,PASS,se_diff=0.002407436041877533 powered=False,10,40000.0
+mmcK-03,mmcK,J4,mu_up,W,16.059012,12.06628,-0.248629,0.01,PASS,se_diff=0.0020694845654023047 powered=False,10,40000.0
+mmcK-03,mmcK,J4,c_up,W,16.059012,12.597577,-0.215545,0.01,PASS,se_diff=0.002008220655817966 powered=False,10,40000.0
+mmcK-03,mmcK,J4,cap_down,p_loss,0.142713,0.208322,-0.459727,0.01,PASS,se_diff=0.0057121208962639565 powered=False,10,40000.0
+mmcK-04,mmcK,J1,none,W,6.767157,6.768683,0.000225,0.01,PASS,tau=0.01,10,40000.0
+mmcK-04,mmcK,J1,none,L,0.881495,0.882394,0.001019,0.01,PASS,tau=0.01,10,40000.0
+mmcK-04,mmcK,J1,none,p_loss,0.022218,0.022269,0.002290,0.02,PASS,tau=0.02,10,40000.0
+mmcK-04,mmcK,J1,none,busy_frac,0.564906,0.565066,0.000283,0.01,PASS,tau=0.01,10,40000.0
+mmcK-04,mmcK,J1,none,p_wait,0.194746,,,,NA,no_truth(该题无此真值),10,40000.0
+mmcK-04,mmcK,J2,none,J2a_little,0.881495,,7.007890e-07,0.01,PASS,ok,10,40000.0
+mmcK-04,mmcK,J2,none,J2b_flow,,,4.930600e-17,0.01,PASS,ok,10,40000.0
+mmcK-04,mmcK,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mmcK-04,mmcK,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mmcK-04,mmcK,J3,none,J3a_util_pasta,0.39082,,9.723146e-05,0.01,PASS,ok  field=busy_util,10,40000.0
+mmcK-04,mmcK,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mmcK-04,mmcK,J0,none,J0a_arrival_lambda,239797.0,240000.0,8.458333e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-04,mmcK,J0,none,J0b_rate_flow,234469.2,234469.2,0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-04,mmcK,J0,none,J0c_rate_lambda,7.81564,7.822256,8.457918e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-04,mmcK,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-04,mmcK,J4,lam_up,W,6.767157,6.960253,-0.028534,0.01,PASS,se_diff=0.0021197513608270818 powered=False,10,40000.0
+mmcK-04,mmcK,J4,mu_up,W,6.767157,5.221752,-0.228368,0.01,PASS,se_diff=0.001899726262195877 powered=False,10,40000.0
+mmcK-04,mmcK,J4,c_up,W,6.767157,6.07774,-0.101877,0.01,PASS,se_diff=0.0018383071463028038 powered=False,10,40000.0
+mmcK-04,mmcK,J4,cap_down,p_loss,0.022218,0.056845,-1.558511,0.01,PASS,se_diff=0.016766260848174976 powered=False,10,40000.0
+mmcK-05,mmcK,J1,none,W,12.352883,12.359102,0.000503,0.01,PASS,tau=0.01,10,40000.0
+mmcK-05,mmcK,J1,none,L,1.191518,1.193067,0.001298,0.01,PASS,tau=0.01,10,40000.0
+mmcK-05,mmcK,J1,none,p_loss,0.034743,0.034665,0.002250,0.02,PASS,tau=0.02,10,40000.0
+mmcK-05,mmcK,J1,none,busy_frac,0.698839,0.699085,0.000352,0.01,PASS,tau=0.01,10,40000.0
+mmcK-05,mmcK,J1,none,p_wait,0.086464,,,,NA,no_truth(该题无此真值),10,40000.0
+mmcK-05,mmcK,J2,none,J2a_little,1.191518,,6.890090e-08,0.01,PASS,ok,10,40000.0
+mmcK-05,mmcK,J2,none,J2b_flow,,,1.667862e-06,0.01,PASS,ok,10,40000.0
+mmcK-05,mmcK,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mmcK-05,mmcK,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mmcK-05,mmcK,J3,none,J3a_util_pasta,0.385661,,4.295655e-04,0.01,PASS,ok  field=busy_util,10,40000.0
+mmcK-05,mmcK,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mmcK-05,mmcK,J0,none,J0a_arrival_lambda,179871.0,180000.0,7.166667e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-05,mmcK,J0,none,J0b_rate_flow,173622.0,173622.0,0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-05,mmcK,J0,none,J0c_rate_lambda,5.7874,5.791542,7.151809e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-05,mmcK,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-05,mmcK,J4,lam_up,W,12.352883,12.459784,-0.008654,0.01,PASS,se_diff=0.002061075543465953 powered=False,10,40000.0
+mmcK-05,mmcK,J4,mu_up,W,12.352883,9.778935,-0.208368,0.01,PASS,se_diff=0.0015861625600203345 powered=False,10,40000.0
+mmcK-05,mmcK,J4,c_up,W,12.352883,11.995585,-0.028924,0.01,PASS,se_diff=0.0016424043688889583 powered=False,10,40000.0
+mmcK-05,mmcK,J4,cap_down,p_loss,0.034743,0.089789,-1.584377,0.01,PASS,se_diff=0.023306786264159357 powered=False,10,40000.0
+mmcK-06,mmcK,J1,none,W,6.037791,6.039648,0.000307,0.01,PASS,tau=0.01,10,40000.0
+mmcK-06,mmcK,J1,none,L,0.600967,0.60158,0.001019,0.01,PASS,tau=0.01,10,40000.0
+mmcK-06,mmcK,J1,none,p_loss,0.003946,0.003949,0.000760,0.02,PASS,tau=0.02,10,40000.0
+mmcK-06,mmcK,J1,none,busy_frac,0.451198,0.451514,0.000700,0.01,PASS,tau=0.01,10,40000.0
+mmcK-06,mmcK,J1,none,p_wait,0.019699,,,,NA,no_truth(该题无此真值),10,40000.0
+mmcK-06,mmcK,J2,none,J2a_little,0.600967,,2.011286e-06,0.01,PASS,ok,10,40000.0
+mmcK-06,mmcK,J2,none,J2b_flow,,,5.559540e-07,0.01,PASS,ok,10,40000.0
+mmcK-06,mmcK,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mmcK-06,mmcK,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mmcK-06,mmcK,J3,none,J3a_util_pasta,0.19901,,2.919451e-04,0.01,PASS,ok  field=busy_util,10,40000.0
+mmcK-06,mmcK,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mmcK-06,mmcK,J0,none,J0a_arrival_lambda,179871.0,180000.0,7.166667e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-06,mmcK,J0,none,J0b_rate_flow,179161.3,179161.29,5.581563e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-06,mmcK,J0,none,J0c_rate_lambda,5.972043,5.976324,7.163266e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-06,mmcK,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-06,mmcK,J4,lam_up,W,6.037791,6.052996,-0.002518,0.01,PASS,se_diff=0.0019262252190505008 powered=False,10,40000.0
+mmcK-06,mmcK,J4,mu_up,W,6.037791,4.816678,-0.202245,0.01,PASS,se_diff=0.0013843235937493147 powered=False,10,40000.0
+mmcK-06,mmcK,J4,c_up,W,6.037791,5.998291,-0.006542,0.01,PASS,se_diff=0.0014876631250132497 powered=False,10,40000.0
+mmcK-06,mmcK,J4,cap_down,p_loss,0.003946,0.019844,-4.028890,0.01,PASS,se_diff=0.055297811441033747 powered=False,10,40000.0
+mmcK-07,mmcK,J1,none,W,12.597577,12.59848,0.000072,0.01,PASS,tau=0.01,10,40000.0
+mmcK-07,mmcK,J1,none,L,1.554445,1.55566,0.000781,0.01,PASS,tau=0.01,10,40000.0
+mmcK-07,mmcK,J1,none,p_loss,0.073774,0.0739,0.001705,0.02,PASS,tau=0.02,10,40000.0
+mmcK-07,mmcK,J1,none,busy_frac,0.797183,0.797027,0.000196,0.01,PASS,tau=0.01,10,40000.0
+mmcK-07,mmcK,J1,none,p_wait,0.138231,,,,NA,no_truth(该题无此真值),10,40000.0
+mmcK-07,mmcK,J2,none,J2a_little,1.554445,,7.780928e-07,0.01,PASS,ok,10,40000.0
+mmcK-07,mmcK,J2,none,J2b_flow,,,3.034215e-17,0.01,PASS,ok,10,40000.0
+mmcK-07,mmcK,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mmcK-07,mmcK,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mmcK-07,mmcK,J3,none,J3a_util_pasta,0.493627,,1.172275e-04,0.01,PASS,ok  field=busy_util,10,40000.0
+mmcK-07,mmcK,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mmcK-07,mmcK,J0,none,J0a_arrival_lambda,239797.0,240000.0,8.458333e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-07,mmcK,J0,none,J0b_rate_flow,222106.1,222106.11000000002,4.502353e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-07,mmcK,J0,none,J0c_rate_lambda,7.403537,7.409808,8.463107e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-07,mmcK,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-07,mmcK,J4,lam_up,W,12.597577,12.747526,-0.011903,0.01,PASS,se_diff=0.0014726579184335905 powered=False,10,40000.0
+mmcK-07,mmcK,J4,mu_up,W,12.597577,9.923931,-0.212235,0.01,PASS,se_diff=0.0015122974814669248 powered=False,10,40000.0
+mmcK-07,mmcK,J4,c_up,W,12.597577,12.002102,-0.047269,0.01,PASS,se_diff=0.0015623063805315976 powered=False,10,40000.0
+mmcK-07,mmcK,J4,cap_down,p_loss,0.073774,0.149522,-1.026757,0.01,PASS,se_diff=0.007917468925816904 powered=False,10,40000.0
+mmcK-08,mmcK,J1,none,W,6.07774,6.077388,0.000058,0.01,PASS,tau=0.01,10,40000.0
+mmcK-08,mmcK,J1,none,L,0.801464,0.802043,0.000722,0.01,PASS,tau=0.01,10,40000.0
+mmcK-08,mmcK,J1,none,p_loss,0.010148,0.010213,0.006364,0.02,PASS,tau=0.02,10,40000.0
+mmcK-08,mmcK,J1,none,busy_frac,0.551086,0.551185,0.000180,0.01,PASS,tau=0.01,10,40000.0
+mmcK-08,mmcK,J1,none,p_wait,0.038271,,,,NA,no_truth(该题无此真值),10,40000.0
+mmcK-08,mmcK,J2,none,J2a_little,0.801464,,2.819420e-07,0.01,PASS,ok,10,40000.0
+mmcK-08,mmcK,J2,none,J2b_flow,,,4.170194e-07,0.01,PASS,ok,10,40000.0
+mmcK-08,mmcK,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mmcK-08,mmcK,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mmcK-08,mmcK,J3,none,J3a_util_pasta,0.263762,,9.313952e-05,0.01,PASS,ok  field=busy_util,10,40000.0
+mmcK-08,mmcK,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mmcK-08,mmcK,J0,none,J0a_arrival_lambda,239797.0,240000.0,8.458333e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-08,mmcK,J0,none,J0b_rate_flow,237363.7,237363.69,4.212944e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-08,mmcK,J0,none,J0c_rate_lambda,7.912123,7.918816,8.452021e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-08,mmcK,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mmcK-08,mmcK,J4,lam_up,W,6.07774,6.106197,-0.004682,0.01,PASS,se_diff=0.001618049992530771 powered=False,10,40000.0
+mmcK-08,mmcK,J4,mu_up,W,6.07774,4.837531,-0.204058,0.01,PASS,se_diff=0.0015484433172983606 powered=False,10,40000.0
+mmcK-08,mmcK,J4,c_up,W,6.07774,6.000648,-0.012684,0.01,PASS,se_diff=0.0016756878048072993 powered=False,10,40000.0
+mmcK-08,mmcK,J4,cap_down,p_loss,0.010148,0.038539,-2.797694,0.01,PASS,se_diff=0.023808941757322906 powered=False,10,40000.0
+md1-01,md1,J1,none,W,7.998523,8.0,0.000185,0.01,PASS,tau=0.01,10,40000.0
+md1-01,md1,J1,none,L,0.533578,0.533333,0.000459,0.01,PASS,tau=0.01,10,40000.0
+md1-01,md1,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+md1-01,md1,J1,none,busy_frac,0.400256,0.4,0.000640,0.01,PASS,tau=0.01,10,40000.0
+md1-01,md1,J1,none,p_wait,0.400328,,,,NA,no_truth(该题无此真值),10,40000.0
+md1-01,md1,J2,none,J2a_little,0.533578,,2.742041e-06,0.01,PASS,ok,10,40000.0
+md1-01,md1,J2,none,J2b_flow,,,3.331210e-06,0.01,PASS,ok,10,40000.0
+md1-01,md1,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+md1-01,md1,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+md1-01,md1,J3,none,J3a_util_pasta,0.400256,,7.495203e-07,0.01,PASS,ok  field=busy_util,10,40000.0
+md1-01,md1,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+md1-01,md1,J0,none,J0a_arrival_lambda,120076.5,120000.0,6.375000e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+md1-01,md1,J0,none,J0b_rate_flow,120076.9,120076.89000000001,8.327996e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+md1-01,md1,J0,none,J0c_rate_lambda,4.002563,4.0,6.407500e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+md1-01,md1,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+md1-01,md1,J4,lam_up,W,7.998523,8.563378,-0.070620,0.01,PASS,se_diff=0.0028096339565488676 powered=False,10,40000.0
+md1-01,md1,J4,mu_up,W,7.998523,5.927361,-0.258943,0.01,PASS,se_diff=0.0019412663282349705 powered=False,10,40000.0
+md1-01,md1,J4,c_up,W,7.998523,6.144572,-0.231787,0.01,PASS,se_diff=0.001745498668513958 powered=False,10,40000.0
+md1-02,md1,J1,none,W,6.247961,6.25,0.000326,0.01,PASS,tau=0.01,10,40000.0
+md1-02,md1,J1,none,L,0.416798,0.416667,0.000314,0.01,PASS,tau=0.01,10,40000.0
+md1-02,md1,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+md1-02,md1,J1,none,busy_frac,0.333547,0.333333,0.000642,0.01,PASS,tau=0.01,10,40000.0
+md1-02,md1,J1,none,p_wait,0.333495,,,,NA,no_truth(该题无此真值),10,40000.0
+md1-02,md1,J2,none,J2a_little,0.416798,,8.987550e-07,0.01,PASS,ok,10,40000.0
+md1-02,md1,J2,none,J2b_flow,,,3.331210e-06,0.01,PASS,ok,10,40000.0
+md1-02,md1,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+md1-02,md1,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+md1-02,md1,J3,none,J3a_util_pasta,0.333547,,2.498399e-07,0.01,PASS,ok  field=busy_util,10,40000.0
+md1-02,md1,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+md1-02,md1,J0,none,J0a_arrival_lambda,120076.5,120000.0,6.375000e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+md1-02,md1,J0,none,J0b_rate_flow,120076.9,120076.89000000001,8.327996e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+md1-02,md1,J0,none,J0c_rate_lambda,4.002563,4.0,6.407500e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+md1-02,md1,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+md1-02,md1,J4,lam_up,W,6.247961,6.556317,-0.049353,0.01,PASS,se_diff=0.001958194087525919 powered=False,10,40000.0
+md1-02,md1,J4,mu_up,W,6.247961,4.725328,-0.243701,0.01,PASS,se_diff=0.001432600595086653 powered=False,10,40000.0
+md1-02,md1,J4,c_up,W,6.247961,5.083997,-0.186295,0.01,PASS,se_diff=0.0012520362732771956 powered=False,10,40000.0
+md1-03,md1,J1,none,W,10.516407,10.5,0.001563,0.01,PASS,tau=0.01,10,40000.0
+md1-03,md1,J1,none,L,1.052418,1.05,0.002303,0.01,PASS,tau=0.01,10,40000.0
+md1-03,md1,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+md1-03,md1,J1,none,busy_frac,0.600442,0.6,0.000737,0.01,PASS,tau=0.01,10,40000.0
+md1-03,md1,J1,none,p_wait,0.600362,,,,NA,no_truth(该题无此真值),10,40000.0
+md1-03,md1,J2,none,J2a_little,1.052418,,1.296478e-06,0.01,PASS,ok,10,40000.0
+md1-03,md1,J2,none,J2b_flow,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+md1-03,md1,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+md1-03,md1,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+md1-03,md1,J3,none,J3a_util_pasta,0.600442,,1.165808e-06,0.01,PASS,ok  field=busy_util,10,40000.0
+md1-03,md1,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+md1-03,md1,J0,none,J0a_arrival_lambda,180132.8,180000.0,7.377778e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+md1-03,md1,J0,none,J0b_rate_flow,180132.8,180132.81,5.551460e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+md1-03,md1,J0,none,J0c_rate_lambda,6.004427,6.0,7.378333e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+md1-03,md1,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+md1-03,md1,J4,lam_up,W,10.516407,12.674241,-0.205187,0.01,PASS,se_diff=0.0057118240840419695 powered=False,10,40000.0
+md1-03,md1,J4,mu_up,W,10.516407,7.024355,-0.332058,0.01,PASS,se_diff=0.0034535810218992167 powered=False,10,40000.0
+md1-03,md1,J4,c_up,W,10.516407,6.333166,-0.397782,0.01,PASS,se_diff=0.0032104063031140693 powered=False,10,40000.0
+md1-04,md1,J1,none,W,7.50999,7.5,0.001332,0.01,PASS,tau=0.01,10,40000.0
+md1-04,md1,J1,none,L,0.751553,0.75,0.002071,0.01,PASS,tau=0.01,10,40000.0
+md1-04,md1,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+md1-04,md1,J1,none,busy_frac,0.500368,0.5,0.000736,0.01,PASS,tau=0.01,10,40000.0
+md1-04,md1,J1,none,p_wait,0.500105,,,,NA,no_truth(该题无此真值),10,40000.0
+md1-04,md1,J2,none,J2a_little,0.751553,,5.170234e-07,0.01,PASS,ok,10,40000.0
+md1-04,md1,J2,none,J2b_flow,,,5.551460e-07,0.01,PASS,ok,10,40000.0
+md1-04,md1,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+md1-04,md1,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+md1-04,md1,J3,none,J3a_util_pasta,0.500368,,1.165809e-06,0.01,PASS,ok  field=busy_util,10,40000.0
+md1-04,md1,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+md1-04,md1,J0,none,J0a_arrival_lambda,180132.8,180000.0,7.377778e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+md1-04,md1,J0,none,J0b_rate_flow,180132.7,180132.69,5.551463e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+md1-04,md1,J0,none,J0c_rate_lambda,6.004423,6.0,7.371667e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+md1-04,md1,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+md1-04,md1,J4,lam_up,W,7.50999,8.385257,-0.116547,0.01,PASS,se_diff=0.0032974895600772097 powered=False,10,40000.0
+md1-04,md1,J4,mu_up,W,7.50999,5.337168,-0.289324,0.01,PASS,se_diff=0.0023078234077749606 powered=False,10,40000.0
+md1-04,md1,J4,c_up,W,7.50999,5.190463,-0.308859,0.01,PASS,se_diff=0.002139638278813645 powered=False,10,40000.0
+md1-05,md1,J1,none,W,17.996596,18.0,0.000189,0.01,PASS,tau=0.01,10,40000.0
+md1-05,md1,J1,none,L,2.39925,2.4,0.000313,0.01,PASS,tau=0.01,10,40000.0
+md1-05,md1,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+md1-05,md1,J1,none,busy_frac,0.799897,0.8,0.000129,0.01,PASS,tau=0.01,10,40000.0
+md1-05,md1,J1,none,p_wait,0.8003,,,,NA,no_truth(该题无此真值),10,40000.0
+md1-05,md1,J2,none,J2a_little,2.39925,,2.838123e-06,0.01,PASS,ok,10,40000.0
+md1-05,md1,J2,none,J2b_flow,,,2.500322e-06,0.01,PASS,ok,10,40000.0
+md1-05,md1,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+md1-05,md1,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+md1-05,md1,J3,none,J3a_util_pasta,0.799897,,2.500322e-06,0.01,PASS,ok  field=busy_util,10,40000.0
+md1-05,md1,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+md1-05,md1,J0,none,J0a_arrival_lambda,239969.1,240000.0,1.287500e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+md1-05,md1,J0,none,J0b_rate_flow,239969.7,239969.7,0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+md1-05,md1,J0,none,J0c_rate_lambda,7.99899,8.0,1.262500e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+md1-05,md1,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+md1-05,md1,J4,lam_up,W,17.996596,40.062366,-1.226108,0.01,PASS,se_diff=0.03603028002955372 powered=False,10,40000.0
+md1-05,md1,J4,mu_up,W,17.996596,9.062193,-0.496450,0.01,PASS,se_diff=0.005085984597364589 powered=False,10,40000.0
+md1-05,md1,J4,c_up,W,17.996596,6.619778,-0.632165,0.01,PASS,se_diff=0.004841593119232574 powered=False,10,40000.0
+md1-06,md1,J1,none,W,9.993401,10.0,0.000660,0.01,PASS,tau=0.01,10,40000.0
+md1-06,md1,J1,none,L,1.332284,1.333333,0.000787,0.01,PASS,tau=0.01,10,40000.0
+md1-06,md1,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+md1-06,md1,J1,none,busy_frac,0.66658,0.666667,0.000130,0.01,PASS,tau=0.01,10,40000.0
+md1-06,md1,J1,none,p_wait,0.666918,,,,NA,no_truth(该题无此真值),10,40000.0
+md1-06,md1,J2,none,J2a_little,1.332284,,1.566271e-06,0.01,PASS,ok,10,40000.0
+md1-06,md1,J2,none,J2b_flow,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+md1-06,md1,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+md1-06,md1,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+md1-06,md1,J3,none,J3a_util_pasta,0.66658,,1.250163e-06,0.01,PASS,ok  field=busy_util,10,40000.0
+md1-06,md1,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+md1-06,md1,J0,none,J0a_arrival_lambda,239969.1,240000.0,1.287500e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+md1-06,md1,J0,none,J0b_rate_flow,239969.1,239969.1,0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+md1-06,md1,J0,none,J0c_rate_lambda,7.99897,8.0,1.287500e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+md1-06,md1,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+md1-06,md1,J4,lam_up,W,9.993401,13.18422,-0.319293,0.01,PASS,se_diff=0.006949666101057783 powered=False,10,40000.0
+md1-06,md1,J4,mu_up,W,9.993401,6.28464,-0.371121,0.01,PASS,se_diff=0.0037170784551736925 powered=False,10,40000.0
+md1-06,md1,J4,c_up,W,9.993401,5.345438,-0.465103,0.01,PASS,se_diff=0.0034938628742149248 powered=False,10,40000.0
+mh2-01,mh2,J1,none,W,10.225347,10.178571,0.004596,0.02,PASS,tau=0.02,10,40000.0
+mh2-01,mh2,J1,none,L,0.511049,0.508929,0.004166,0.03,PASS,tau=0.03,10,40000.0
+mh2-01,mh2,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+mh2-01,mh2,J1,none,busy_frac,0.300478,0.3,0.001593,0.01,PASS,tau=0.01,10,40000.0
+mh2-01,mh2,J1,none,p_wait,0.300731,,,,NA,no_truth(该题无此真值),10,40000.0
+mh2-01,mh2,J2,none,J2a_little,0.511049,,4.744664e-06,0.01,PASS,ok,10,40000.0
+mh2-01,mh2,J2,none,J2b_flow,,,8.892723e-06,0.01,PASS,ok,10,40000.0
+mh2-01,mh2,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mh2-01,mh2,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mh2-01,mh2,J3,none,J3a_util_pasta,0.300478,,2.012460e-03,0.01,PASS,ok  field=busy_util,10,40000.0
+mh2-01,mh2,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mh2-01,mh2,J0,none,J0a_arrival_lambda,89961.2,90000.0,4.311111e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mh2-01,mh2,J0,none,J0b_rate_flow,89962.0,89961.99,1.111580e-07,0.01,PASS,tau=0.01 ok,10,40000.0
+mh2-01,mh2,J0,none,J0c_rate_lambda,2.998733,3.0,4.223333e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mh2-01,mh2,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mh2-01,mh2,J4,lam_up,W,10.225347,11.168425,-0.092229,0.01,PASS,se_diff=0.010663818547346519 powered=False,10,40000.0
+mh2-01,mh2,J4,mu_up,W,10.225347,7.289295,-0.287135,0.01,PASS,se_diff=0.008907447606315712 powered=False,10,40000.0
+mh2-02,mh2,J1,none,W,15.78418,15.75,0.002170,0.02,PASS,tau=0.02,10,40000.0
+mh2-02,mh2,J1,none,L,1.314724,1.3125,0.001694,0.03,PASS,tau=0.03,10,40000.0
+mh2-02,mh2,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+mh2-02,mh2,J1,none,busy_frac,0.50055,0.5,0.001100,0.01,PASS,tau=0.01,10,40000.0
+mh2-02,mh2,J1,none,p_wait,0.500417,,,,NA,no_truth(该题无此真值),10,40000.0
+mh2-02,mh2,J2,none,J2a_little,1.314724,,4.196745e-05,0.01,PASS,ok,10,40000.0
+mh2-02,mh2,J2,none,J2b_flow,,,1.000507e-05,0.01,PASS,ok,10,40000.0
+mh2-02,mh2,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mh2-02,mh2,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mh2-02,mh2,J3,none,J3a_util_pasta,0.50055,,1.614824e-03,0.01,PASS,ok  field=busy_util,10,40000.0
+mh2-02,mh2,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mh2-02,mh2,J0,none,J0a_arrival_lambda,149924.0,150000.0,5.066667e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mh2-02,mh2,J0,none,J0b_rate_flow,149922.5,149922.51,6.670113e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+mh2-02,mh2,J0,none,J0c_rate_lambda,4.997417,5.0,5.166000e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mh2-02,mh2,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mh2-02,mh2,J4,lam_up,W,15.78418,19.146906,-0.213044,0.01,PASS,se_diff=0.009545079030444813 powered=False,10,40000.0
+mh2-02,mh2,J4,mu_up,W,15.78418,10.0205,-0.365155,0.01,PASS,se_diff=0.005151897926683849 powered=False,10,40000.0
+mh2-03,mh2,J1,none,W,12.471936,12.428571,0.003489,0.02,PASS,tau=0.02,10,40000.0
+mh2-03,mh2,J1,none,L,0.623336,0.621429,0.003069,0.03,PASS,tau=0.03,10,40000.0
+mh2-03,mh2,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+mh2-03,mh2,J1,none,busy_frac,0.300431,0.3,0.001437,0.01,PASS,tau=0.01,10,40000.0
+mh2-03,mh2,J1,none,p_wait,0.300666,,,,NA,no_truth(该题无此真值),10,40000.0
+mh2-03,mh2,J2,none,J2a_little,0.623336,,1.781793e-06,0.01,PASS,ok,10,40000.0
+mh2-03,mh2,J2,none,J2b_flow,,,1.111590e-05,0.01,PASS,ok,10,40000.0
+mh2-03,mh2,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mh2-03,mh2,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mh2-03,mh2,J3,none,J3a_util_pasta,0.300431,,1.854003e-03,0.01,PASS,ok  field=busy_util,10,40000.0
+mh2-03,mh2,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mh2-03,mh2,J0,none,J0a_arrival_lambda,89961.2,90000.0,4.311111e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mh2-03,mh2,J0,none,J0b_rate_flow,89962.2,89962.20000000001,1.617559e-16,0.01,PASS,tau=0.01 ok,10,40000.0
+mh2-03,mh2,J0,none,J0c_rate_lambda,2.99874,3.0,4.200000e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mh2-03,mh2,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mh2-03,mh2,J4,lam_up,W,12.471936,13.919298,-0.116050,0.01,PASS,se_diff=0.01678686134898788 powered=False,10,40000.0
+mh2-03,mh2,J4,mu_up,W,12.471936,8.617504,-0.309048,0.01,PASS,se_diff=0.014202700491785479 powered=False,10,40000.0
+mh2-04,mh2,J1,none,W,21.085887,21.0,0.004090,0.02,PASS,tau=0.02,10,40000.0
+mh2-04,mh2,J1,none,L,1.756339,1.75,0.003622,0.03,PASS,tau=0.03,10,40000.0
+mh2-04,mh2,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+mh2-04,mh2,J1,none,busy_frac,0.500822,0.5,0.001644,0.01,PASS,tau=0.01,10,40000.0
+mh2-04,mh2,J1,none,p_wait,0.500842,,,,NA,no_truth(该题无此真值),10,40000.0
+mh2-04,mh2,J2,none,J2a_little,1.756339,,6.096147e-05,0.01,PASS,ok,10,40000.0
+mh2-04,mh2,J2,none,J2b_flow,,,2.001014e-05,0.01,PASS,ok,10,40000.0
+mh2-04,mh2,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mh2-04,mh2,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mh2-04,mh2,J3,none,J3a_util_pasta,0.500822,,2.167037e-03,0.01,PASS,ok  field=busy_util,10,40000.0
+mh2-04,mh2,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mh2-04,mh2,J0,none,J0a_arrival_lambda,149924.0,150000.0,5.066667e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mh2-04,mh2,J0,none,J0b_rate_flow,149921.0,149921.00999999998,6.670180e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+mh2-04,mh2,J0,none,J0c_rate_lambda,4.997367,5.0,5.266000e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mh2-04,mh2,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mh2-04,mh2,J4,lam_up,W,21.085887,26.288941,-0.246755,0.01,PASS,se_diff=0.01949462856250154 powered=False,10,40000.0
+mh2-04,mh2,J4,mu_up,W,21.085887,12.837065,-0.391201,0.01,PASS,se_diff=0.010143877865849672 powered=False,10,40000.0
+mh2-05,mh2,J1,none,W,19.061008,18.857143,0.010811,0.02,PASS,tau=0.02,10,40000.0
+mh2-05,mh2,J1,none,L,0.95269,0.942857,0.010429,0.03,PASS,tau=0.03,10,40000.0
+mh2-05,mh2,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+mh2-05,mh2,J1,none,busy_frac,0.301362,0.3,0.004540,0.01,PASS,tau=0.01,10,40000.0
+mh2-05,mh2,J1,none,p_wait,0.301422,,,,NA,no_truth(该题无此真值),10,40000.0
+mh2-05,mh2,J2,none,J2a_little,0.95269,,4.419586e-05,0.01,PASS,ok,10,40000.0
+mh2-05,mh2,J2,none,J2b_flow,,,8.892723e-06,0.01,PASS,ok,10,40000.0
+mh2-05,mh2,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mh2-05,mh2,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mh2-05,mh2,J3,none,J3a_util_pasta,0.301362,,4.939906e-03,0.01,PASS,ok  field=busy_util,10,40000.0
+mh2-05,mh2,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mh2-05,mh2,J0,none,J0a_arrival_lambda,89961.2,90000.0,4.311111e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mh2-05,mh2,J0,none,J0b_rate_flow,89962.0,89961.99,1.111580e-07,0.01,PASS,tau=0.01 ok,10,40000.0
+mh2-05,mh2,J0,none,J0c_rate_lambda,2.998733,3.0,4.223333e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mh2-05,mh2,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mh2-05,mh2,J4,lam_up,W,19.061008,21.988352,-0.153578,0.01,PASS,se_diff=0.03997368164665457 powered=False,10,40000.0
+mh2-05,mh2,J4,mu_up,W,19.061008,12.503849,-0.344009,0.01,PASS,se_diff=0.030842455213320512 powered=False,10,40000.0
+mh2-06,mh2,J1,none,W,36.229022,36.0,0.006362,0.02,PASS,tau=0.02,10,40000.0
+mh2-06,mh2,J1,none,L,3.017689,3.0,0.005896,0.03,PASS,tau=0.03,10,40000.0
+mh2-06,mh2,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+mh2-06,mh2,J1,none,busy_frac,0.500956,0.5,0.001912,0.01,PASS,tau=0.01,10,40000.0
+mh2-06,mh2,J1,none,p_wait,0.501021,,,,NA,no_truth(该题无此真值),10,40000.0
+mh2-06,mh2,J2,none,J2a_little,3.017689,,6.618368e-05,0.01,PASS,ok,10,40000.0
+mh2-06,mh2,J2,none,J2b_flow,,,2.201115e-05,0.01,PASS,ok,10,40000.0
+mh2-06,mh2,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+mh2-06,mh2,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+mh2-06,mh2,J3,none,J3a_util_pasta,0.500956,,2.435942e-03,0.01,PASS,ok  field=busy_util,10,40000.0
+mh2-06,mh2,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+mh2-06,mh2,J0,none,J0a_arrival_lambda,149924.0,150000.0,5.066667e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mh2-06,mh2,J0,none,J0b_rate_flow,149920.7,149920.71,6.670193e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+mh2-06,mh2,J0,none,J0c_rate_lambda,4.997357,5.0,5.286000e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+mh2-06,mh2,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+mh2-06,mh2,J4,lam_up,W,36.229022,46.76311,-0.290764,0.01,PASS,se_diff=0.03445397520734068 powered=False,10,40000.0
+mh2-06,mh2,J4,mu_up,W,36.229022,20.900191,-0.423109,0.01,PASS,se_diff=0.020991448860264297 powered=False,10,40000.0
+jackson2-01,jackson2,J1,none,W,25.037095,25.0,0.001484,0.01,PASS,tau=0.01,10,40000.0
+jackson2-01,jackson2,J1,none,L,1.669045,1.666667,0.001427,0.01,PASS,tau=0.01,10,40000.0
+jackson2-01,jackson2,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+jackson2-01,jackson2,J1,none,busy_frac,0.450107,,,,NA,no_truth(该题无此真值),10,40000.0
+jackson2-01,jackson2,J1,none,p_wait,0.900605,,,,NA,no_truth(该题无此真值),10,40000.0
+jackson2-01,jackson2,J2,none,J2a_little,1.669045,,2.465985e-06,0.01,PASS,ok,10,40000.0
+jackson2-01,jackson2,J2,none,J2b_flow,,,9.167247e-06,0.01,PASS,ok,10,40000.0
+jackson2-01,jackson2,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+jackson2-01,jackson2,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+jackson2-01,jackson2,J3,none,J3a_util_pasta,,,,,NA,field_missing(mu),10,40000.0
+jackson2-01,jackson2,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+jackson2-01,jackson2,J0,none,J0a_arrival_lambda,119992.4,120000.0,6.333333e-05,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-01,jackson2,J0,none,J0b_rate_flow,119993.5,119993.48999999999,8.333785e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-01,jackson2,J0,none,J0c_rate_lambda,3.999783,4.0,5.425000e-05,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-01,jackson2,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-01,jackson2,J4,lam_up,W,25.037095,28.705093,-0.146503,0.01,PASS,se_diff=0.005267597632056254 powered=False,10,40000.0
+jackson2-01,jackson2,J4,mu_up,W,25.037095,17.04393,-0.319253,0.01,PASS,se_diff=0.004229304695172868 powered=False,10,40000.0
+jackson2-02,jackson2,J1,none,W,22.52798,22.5,0.001244,0.01,PASS,tau=0.01,10,40000.0
+jackson2-02,jackson2,J1,none,L,1.501777,1.5,0.001185,0.01,PASS,tau=0.01,10,40000.0
+jackson2-02,jackson2,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+jackson2-02,jackson2,J1,none,busy_frac,0.416776,,,,NA,no_truth(该题无此真值),10,40000.0
+jackson2-02,jackson2,J1,none,p_wait,0.833871,,,,NA,no_truth(该题无此真值),10,40000.0
+jackson2-02,jackson2,J2,none,J2a_little,1.501777,,5.657815e-07,0.01,PASS,ok,10,40000.0
+jackson2-02,jackson2,J2,none,J2b_flow,,,5.000317e-06,0.01,PASS,ok,10,40000.0
+jackson2-02,jackson2,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+jackson2-02,jackson2,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+jackson2-02,jackson2,J3,none,J3a_util_pasta,,,,,NA,field_missing(mu),10,40000.0
+jackson2-02,jackson2,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+jackson2-02,jackson2,J0,none,J0a_arrival_lambda,119992.4,120000.0,6.333333e-05,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-02,jackson2,J0,none,J0b_rate_flow,119993.0,119993.01,8.333819e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-02,jackson2,J0,none,J0c_rate_lambda,3.999767,4.0,5.825000e-05,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-02,jackson2,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-02,jackson2,J4,lam_up,W,22.52798,25.690382,-0.140377,0.01,PASS,se_diff=0.00547953584127704 powered=False,10,40000.0
+jackson2-02,jackson2,J4,mu_up,W,22.52798,15.437312,-0.314749,0.01,PASS,se_diff=0.00421338969124444 powered=False,10,40000.0
+jackson2-03,jackson2,J1,none,W,19.984881,20.0,0.000756,0.01,PASS,tau=0.01,10,40000.0
+jackson2-03,jackson2,J1,none,L,1.331797,1.333333,0.001152,0.01,PASS,tau=0.01,10,40000.0
+jackson2-03,jackson2,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+jackson2-03,jackson2,J1,none,busy_frac,0.39988,,,,NA,no_truth(该题无此真值),10,40000.0
+jackson2-03,jackson2,J1,none,p_wait,0.799251,,,,NA,no_truth(该题无此真值),10,40000.0
+jackson2-03,jackson2,J2,none,J2a_little,1.331797,,1.165481e-05,0.01,PASS,ok,10,40000.0
+jackson2-03,jackson2,J2,none,J2b_flow,,,6.669346e-06,0.01,PASS,ok,10,40000.0
+jackson2-03,jackson2,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+jackson2-03,jackson2,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+jackson2-03,jackson2,J3,none,J3a_util_pasta,,,,,NA,field_missing(mu),10,40000.0
+jackson2-03,jackson2,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+jackson2-03,jackson2,J0,none,J0a_arrival_lambda,119951.8,120000.0,4.016667e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-03,jackson2,J0,none,J0b_rate_flow,119951.0,119951.01,8.336737e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-03,jackson2,J0,none,J0c_rate_lambda,3.998367,4.0,4.082500e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-03,jackson2,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-03,jackson2,J4,lam_up,W,19.984881,22.162978,-0.108987,0.01,PASS,se_diff=0.005448987156868583 powered=False,10,40000.0
+jackson2-03,jackson2,J4,mu_up,W,19.984881,14.121408,-0.293395,0.01,PASS,se_diff=0.0032505368388085947 powered=False,10,40000.0
+jackson2-04,jackson2,J1,none,W,17.485206,17.5,0.000845,0.01,PASS,tau=0.01,10,40000.0
+jackson2-04,jackson2,J1,none,L,1.165219,1.166667,0.001241,0.01,PASS,tau=0.01,10,40000.0
+jackson2-04,jackson2,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+jackson2-04,jackson2,J1,none,busy_frac,0.366563,,,,NA,no_truth(该题无此真值),10,40000.0
+jackson2-04,jackson2,J1,none,p_wait,0.732592,,,,NA,no_truth(该题无此真值),10,40000.0
+jackson2-04,jackson2,J2,none,J2a_little,1.165219,,9.933602e-06,0.01,PASS,ok,10,40000.0
+jackson2-04,jackson2,J2,none,J2b_flow,,,4.168341e-06,0.01,PASS,ok,10,40000.0
+jackson2-04,jackson2,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+jackson2-04,jackson2,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+jackson2-04,jackson2,J3,none,J3a_util_pasta,,,,,NA,field_missing(mu),10,40000.0
+jackson2-04,jackson2,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+jackson2-04,jackson2,J0,none,J0a_arrival_lambda,119951.8,120000.0,4.016667e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-04,jackson2,J0,none,J0b_rate_flow,119951.3,119951.31,8.336717e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-04,jackson2,J0,none,J0c_rate_lambda,3.998377,4.0,4.057500e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-04,jackson2,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-04,jackson2,J4,lam_up,W,17.485206,19.155249,-0.095512,0.01,PASS,se_diff=0.005150521629719683 powered=False,10,40000.0
+jackson2-04,jackson2,J4,mu_up,W,17.485206,12.515131,-0.284245,0.01,PASS,se_diff=0.0032268454181078672 powered=False,10,40000.0
+jackson2-05,jackson2,J1,none,W,44.749678,45.0,0.005563,0.01,PASS,tau=0.01,10,40000.0
+jackson2-05,jackson2,J1,none,L,4.473995,4.5,0.005779,0.01,PASS,tau=0.01,10,40000.0
+jackson2-05,jackson2,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+jackson2-05,jackson2,J1,none,busy_frac,0.675163,,,,NA,no_truth(该题无此真值),10,40000.0
+jackson2-05,jackson2,J1,none,p_wait,1.349213,,,,NA,no_truth(该题无此真值),10,40000.0
+jackson2-05,jackson2,J2,none,J2a_little,4.473995,,3.113638e-06,0.01,PASS,ok,10,40000.0
+jackson2-05,jackson2,J2,none,J2b_flow,,,4.445445e-06,0.01,PASS,ok,10,40000.0
+jackson2-05,jackson2,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+jackson2-05,jackson2,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+jackson2-05,jackson2,J3,none,J3a_util_pasta,,,,,NA,field_missing(mu),10,40000.0
+jackson2-05,jackson2,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+jackson2-05,jackson2,J0,none,J0a_arrival_lambda,179959.5,180000.0,2.250000e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-05,jackson2,J0,none,J0b_rate_flow,179960.3,179960.31,5.556781e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-05,jackson2,J0,none,J0c_rate_lambda,5.998677,6.0,2.205000e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-05,jackson2,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-05,jackson2,J4,lam_up,W,44.749678,74.079975,-0.655430,0.01,PASS,se_diff=0.022675194898368112 powered=False,10,40000.0
+jackson2-05,jackson2,J4,mu_up,W,44.749678,24.147716,-0.460382,0.01,PASS,se_diff=0.006755349782216616 powered=False,10,40000.0
+jackson2-06,jackson2,J1,none,W,39.753143,40.0,0.006171,0.01,PASS,tau=0.01,10,40000.0
+jackson2-06,jackson2,J1,none,L,3.974435,4.0,0.006391,0.01,PASS,tau=0.01,10,40000.0
+jackson2-06,jackson2,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+jackson2-06,jackson2,J1,none,busy_frac,0.625116,,,,NA,no_truth(该题无此真值),10,40000.0
+jackson2-06,jackson2,J1,none,p_wait,1.249296,,,,NA,no_truth(该题无此真值),10,40000.0
+jackson2-06,jackson2,J2,none,J2a_little,3.974435,,1.190321e-06,0.01,PASS,ok,10,40000.0
+jackson2-06,jackson2,J2,none,J2b_flow,,,5.001125e-06,0.01,PASS,ok,10,40000.0
+jackson2-06,jackson2,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+jackson2-06,jackson2,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+jackson2-06,jackson2,J3,none,J3a_util_pasta,,,,,NA,field_missing(mu),10,40000.0
+jackson2-06,jackson2,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+jackson2-06,jackson2,J0,none,J0a_arrival_lambda,179959.5,180000.0,2.250000e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-06,jackson2,J0,none,J0b_rate_flow,179960.4,179960.4,0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-06,jackson2,J0,none,J0c_rate_lambda,5.99868,6.0,2.200000e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-06,jackson2,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-06,jackson2,J4,lam_up,W,39.753143,66.496363,-0.672732,0.01,PASS,se_diff=0.02375814769141841 powered=False,10,40000.0
+jackson2-06,jackson2,J4,mu_up,W,39.753143,21.592896,-0.456825,0.01,PASS,se_diff=0.007490994939337086 powered=False,10,40000.0
+jackson2-07,jackson2,J1,none,W,29.872626,30.0,0.004246,0.01,PASS,tau=0.01,10,40000.0
+jackson2-07,jackson2,J1,none,L,2.985464,3.0,0.004845,0.01,PASS,tau=0.01,10,40000.0
+jackson2-07,jackson2,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+jackson2-07,jackson2,J1,none,busy_frac,0.599851,,,,NA,no_truth(该题无此真值),10,40000.0
+jackson2-07,jackson2,J1,none,p_wait,1.197927,,,,NA,no_truth(该题无此真值),10,40000.0
+jackson2-07,jackson2,J2,none,J2a_little,2.985464,,6.593656e-06,0.01,PASS,ok,10,40000.0
+jackson2-07,jackson2,J2,none,J2b_flow,,,8.338369e-06,0.01,PASS,ok,10,40000.0
+jackson2-07,jackson2,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+jackson2-07,jackson2,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+jackson2-07,jackson2,J3,none,J3a_util_pasta,,,,,NA,field_missing(mu),10,40000.0
+jackson2-07,jackson2,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+jackson2-07,jackson2,J0,none,J0a_arrival_lambda,179891.3,180000.0,6.038889e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-07,jackson2,J0,none,J0b_rate_flow,179892.8,179892.81,5.558866e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-07,jackson2,J0,none,J0c_rate_lambda,5.996427,6.0,5.955000e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-07,jackson2,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-07,jackson2,J4,lam_up,W,29.872626,38.599632,-0.292141,0.01,PASS,se_diff=0.007697412895029878 powered=False,10,40000.0
+jackson2-07,jackson2,J4,mu_up,W,29.872626,18.46083,-0.382015,0.01,PASS,se_diff=0.005686273065484848 powered=False,10,40000.0
+jackson2-08,jackson2,J1,none,W,24.91322,25.0,0.003471,0.01,PASS,tau=0.01,10,40000.0
+jackson2-08,jackson2,J1,none,L,2.489821,2.5,0.004072,0.01,PASS,tau=0.01,10,40000.0
+jackson2-08,jackson2,J1,none,p_loss,0.0,,,,NA,no_truth(该题无此真值),10,40000.0
+jackson2-08,jackson2,J1,none,busy_frac,0.549855,,,,NA,no_truth(该题无此真值),10,40000.0
+jackson2-08,jackson2,J1,none,p_wait,1.098119,,,,NA,no_truth(该题无此真值),10,40000.0
+jackson2-08,jackson2,J2,none,J2a_little,2.489821,,4.660843e-06,0.01,PASS,ok,10,40000.0
+jackson2-08,jackson2,J2,none,J2b_flow,,,6.114804e-06,0.01,PASS,ok,10,40000.0
+jackson2-08,jackson2,J2,none,J2c_busy,,,0.000000e+00,0.01,PASS,ok,10,40000.0
+jackson2-08,jackson2,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+jackson2-08,jackson2,J3,none,J3a_util_pasta,,,,,NA,field_missing(mu),10,40000.0
+jackson2-08,jackson2,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+jackson2-08,jackson2,J0,none,J0a_arrival_lambda,179891.3,180000.0,6.038889e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-08,jackson2,J0,none,J0b_rate_flow,179892.4,179892.39,5.558879e-08,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-08,jackson2,J0,none,J0c_rate_lambda,5.996413,6.0,5.978333e-04,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-08,jackson2,J0,none,J0e_win_invocation,30000.0,"[20000.0, 40000.0]",0.000000e+00,0.01,PASS,tau=0.01 ok,10,40000.0
+jackson2-08,jackson2,J4,lam_up,W,24.91322,31.069736,-0.247118,0.01,PASS,se_diff=0.006900239588940752 powered=False,10,40000.0
+jackson2-08,jackson2,J4,mu_up,W,24.91322,15.888917,-0.362229,0.01,PASS,se_diff=0.004958624796801004 powered=False,10,40000.0
+newsvendor-01,newsvendor,J1,none,q,64.400718,64.400718,0.000000,0.01,PASS,tau=0.01,10,40000.0
+newsvendor-01,newsvendor,J1,none,exp_profit,405.615664,405.483189,0.000327,0.01,PASS,tau=0.01,10,40000.0
+newsvendor-01,newsvendor,J2,none,J2a_little,,,,,NA,field_missing(W+dep_rate+L),10,40000.0
+newsvendor-01,newsvendor,J2,none,J2b_flow,,,,,NA,field_missing(arr/dep/blk 计数),10,40000.0
+newsvendor-01,newsvendor,J2,none,J2c_busy,,,,,NA,field_missing(busy_frac),10,40000.0
+newsvendor-01,newsvendor,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+newsvendor-01,newsvendor,J3,none,J3a_util_pasta,,,,,NA,field_missing(dep_rate+busy_frac+mu),10,40000.0
+newsvendor-01,newsvendor,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+newsvendor-01,newsvendor,J0,none,J0a_arrival_lambda,,,,,NA,field_missing(lambda/arr/win),10,40000.0
+newsvendor-01,newsvendor,J0,none,J0b_rate_flow,,,,,NA,field_missing(dep_rate/dep/win),10,40000.0
+newsvendor-01,newsvendor,J0,none,J0c_rate_lambda,,,,,NA,field_missing(lambda/dep_rate),10,40000.0
+newsvendor-01,newsvendor,J0,none,J0e_win_invocation,,,,,NA,field_missing(win),10,40000.0
+newsvendor-02,newsvendor,J1,none,q,67.334531,67.334531,0.000000,0.01,PASS,tau=0.01,10,40000.0
+newsvendor-02,newsvendor,J1,none,exp_profit,356.026106,355.805315,0.000621,0.01,PASS,tau=0.01,10,40000.0
+newsvendor-02,newsvendor,J2,none,J2a_little,,,,,NA,field_missing(W+dep_rate+L),10,40000.0
+newsvendor-02,newsvendor,J2,none,J2b_flow,,,,,NA,field_missing(arr/dep/blk 计数),10,40000.0
+newsvendor-02,newsvendor,J2,none,J2c_busy,,,,,NA,field_missing(busy_frac),10,40000.0
+newsvendor-02,newsvendor,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+newsvendor-02,newsvendor,J3,none,J3a_util_pasta,,,,,NA,field_missing(dep_rate+busy_frac+mu),10,40000.0
+newsvendor-02,newsvendor,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+newsvendor-02,newsvendor,J0,none,J0a_arrival_lambda,,,,,NA,field_missing(lambda/arr/win),10,40000.0
+newsvendor-02,newsvendor,J0,none,J0b_rate_flow,,,,,NA,field_missing(dep_rate/dep/win),10,40000.0
+newsvendor-02,newsvendor,J0,none,J0c_rate_lambda,,,,,NA,field_missing(lambda/dep_rate),10,40000.0
+newsvendor-02,newsvendor,J0,none,J0e_win_invocation,,,,,NA,field_missing(win),10,40000.0
+newsvendor-03,newsvendor,J1,none,q,67.536033,67.536033,0.000000,0.01,PASS,tau=0.01,10,40000.0
+newsvendor-03,newsvendor,J1,none,exp_profit,943.142143,942.859738,0.000300,0.01,PASS,tau=0.01,10,40000.0
+newsvendor-03,newsvendor,J2,none,J2a_little,,,,,NA,field_missing(W+dep_rate+L),10,40000.0
+newsvendor-03,newsvendor,J2,none,J2b_flow,,,,,NA,field_missing(arr/dep/blk 计数),10,40000.0
+newsvendor-03,newsvendor,J2,none,J2c_busy,,,,,NA,field_missing(busy_frac),10,40000.0
+newsvendor-03,newsvendor,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+newsvendor-03,newsvendor,J3,none,J3a_util_pasta,,,,,NA,field_missing(dep_rate+busy_frac+mu),10,40000.0
+newsvendor-03,newsvendor,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+newsvendor-03,newsvendor,J0,none,J0a_arrival_lambda,,,,,NA,field_missing(lambda/arr/win),10,40000.0
+newsvendor-03,newsvendor,J0,none,J0b_rate_flow,,,,,NA,field_missing(dep_rate/dep/win),10,40000.0
+newsvendor-03,newsvendor,J0,none,J0c_rate_lambda,,,,,NA,field_missing(lambda/dep_rate),10,40000.0
+newsvendor-03,newsvendor,J0,none,J0e_win_invocation,,,,,NA,field_missing(win),10,40000.0
+newsvendor-04,newsvendor,J1,none,q,72.560056,72.560056,0.000000,0.01,PASS,tau=0.01,10,40000.0
+newsvendor-04,newsvendor,J1,none,exp_profit,851.903572,851.432897,0.000553,0.01,PASS,tau=0.01,10,40000.0
+newsvendor-04,newsvendor,J2,none,J2a_little,,,,,NA,field_missing(W+dep_rate+L),10,40000.0
+newsvendor-04,newsvendor,J2,none,J2b_flow,,,,,NA,field_missing(arr/dep/blk 计数),10,40000.0
+newsvendor-04,newsvendor,J2,none,J2c_busy,,,,,NA,field_missing(busy_frac),10,40000.0
+newsvendor-04,newsvendor,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+newsvendor-04,newsvendor,J3,none,J3a_util_pasta,,,,,NA,field_missing(dep_rate+busy_frac+mu),10,40000.0
+newsvendor-04,newsvendor,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+newsvendor-04,newsvendor,J0,none,J0a_arrival_lambda,,,,,NA,field_missing(lambda/arr/win),10,40000.0
+newsvendor-04,newsvendor,J0,none,J0b_rate_flow,,,,,NA,field_missing(dep_rate/dep/win),10,40000.0
+newsvendor-04,newsvendor,J0,none,J0c_rate_lambda,,,,,NA,field_missing(lambda/dep_rate),10,40000.0
+newsvendor-04,newsvendor,J0,none,J0e_win_invocation,,,,,NA,field_missing(win),10,40000.0
+newsvendor-05,newsvendor,J1,none,q,71.715507,71.715507,0.000000,0.01,PASS,tau=0.01,10,40000.0
+newsvendor-05,newsvendor,J1,none,exp_profit,978.839741,978.546661,0.000300,0.01,PASS,tau=0.01,10,40000.0
+newsvendor-05,newsvendor,J2,none,J2a_little,,,,,NA,field_missing(W+dep_rate+L),10,40000.0
+newsvendor-05,newsvendor,J2,none,J2b_flow,,,,,NA,field_missing(arr/dep/blk 计数),10,40000.0
+newsvendor-05,newsvendor,J2,none,J2c_busy,,,,,NA,field_missing(busy_frac),10,40000.0
+newsvendor-05,newsvendor,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+newsvendor-05,newsvendor,J3,none,J3a_util_pasta,,,,,NA,field_missing(dep_rate+busy_frac+mu),10,40000.0
+newsvendor-05,newsvendor,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+newsvendor-05,newsvendor,J0,none,J0a_arrival_lambda,,,,,NA,field_missing(lambda/arr/win),10,40000.0
+newsvendor-05,newsvendor,J0,none,J0b_rate_flow,,,,,NA,field_missing(dep_rate/dep/win),10,40000.0
+newsvendor-05,newsvendor,J0,none,J0c_rate_lambda,,,,,NA,field_missing(lambda/dep_rate),10,40000.0
+newsvendor-05,newsvendor,J0,none,J0e_win_invocation,,,,,NA,field_missing(win),10,40000.0
+newsvendor-06,newsvendor,J1,none,q,79.525845,79.525845,0.000000,0.01,PASS,tau=0.01,10,40000.0
+newsvendor-06,newsvendor,J1,none,exp_profit,911.399568,910.911102,0.000536,0.01,PASS,tau=0.01,10,40000.0
+newsvendor-06,newsvendor,J2,none,J2a_little,,,,,NA,field_missing(W+dep_rate+L),10,40000.0
+newsvendor-06,newsvendor,J2,none,J2b_flow,,,,,NA,field_missing(arr/dep/blk 计数),10,40000.0
+newsvendor-06,newsvendor,J2,none,J2c_busy,,,,,NA,field_missing(busy_frac),10,40000.0
+newsvendor-06,newsvendor,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+newsvendor-06,newsvendor,J3,none,J3a_util_pasta,,,,,NA,field_missing(dep_rate+busy_frac+mu),10,40000.0
+newsvendor-06,newsvendor,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+newsvendor-06,newsvendor,J0,none,J0a_arrival_lambda,,,,,NA,field_missing(lambda/arr/win),10,40000.0
+newsvendor-06,newsvendor,J0,none,J0b_rate_flow,,,,,NA,field_missing(dep_rate/dep/win),10,40000.0
+newsvendor-06,newsvendor,J0,none,J0c_rate_lambda,,,,,NA,field_missing(lambda/dep_rate),10,40000.0
+newsvendor-06,newsvendor,J0,none,J0e_win_invocation,,,,,NA,field_missing(win),10,40000.0
+eoq-01,eoq,J1,none,q,223.606798,223.606798,0.000000,0.01,PASS,tau=0.01,10,40000.0
+eoq-01,eoq,J1,none,cost,447.213595,447.213595,0.000000,0.01,PASS,tau=0.01,10,40000.0
+eoq-01,eoq,J2,none,J2a_little,,,,,NA,field_missing(W+dep_rate+L),10,40000.0
+eoq-01,eoq,J2,none,J2b_flow,,,,,NA,field_missing(arr/dep/blk 计数),10,40000.0
+eoq-01,eoq,J2,none,J2c_busy,,,,,NA,field_missing(busy_frac),10,40000.0
+eoq-01,eoq,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+eoq-01,eoq,J3,none,J3a_util_pasta,,,,,NA,field_missing(dep_rate+busy_frac+mu),10,40000.0
+eoq-01,eoq,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+eoq-01,eoq,J0,none,J0a_arrival_lambda,,,,,NA,field_missing(lambda/arr/win),10,40000.0
+eoq-01,eoq,J0,none,J0b_rate_flow,,,,,NA,field_missing(dep_rate/dep/win),10,40000.0
+eoq-01,eoq,J0,none,J0c_rate_lambda,,,,,NA,field_missing(lambda/dep_rate),10,40000.0
+eoq-01,eoq,J0,none,J0e_win_invocation,,,,,NA,field_missing(win),10,40000.0
+eoq-02,eoq,J1,none,q,447.213595,447.213595,0.000000,0.01,PASS,tau=0.01,10,40000.0
+eoq-02,eoq,J1,none,cost,894.427191,894.427191,0.000000,0.01,PASS,tau=0.01,10,40000.0
+eoq-02,eoq,J2,none,J2a_little,,,,,NA,field_missing(W+dep_rate+L),10,40000.0
+eoq-02,eoq,J2,none,J2b_flow,,,,,NA,field_missing(arr/dep/blk 计数),10,40000.0
+eoq-02,eoq,J2,none,J2c_busy,,,,,NA,field_missing(busy_frac),10,40000.0
+eoq-02,eoq,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+eoq-02,eoq,J3,none,J3a_util_pasta,,,,,NA,field_missing(dep_rate+busy_frac+mu),10,40000.0
+eoq-02,eoq,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+eoq-02,eoq,J0,none,J0a_arrival_lambda,,,,,NA,field_missing(lambda/arr/win),10,40000.0
+eoq-02,eoq,J0,none,J0b_rate_flow,,,,,NA,field_missing(dep_rate/dep/win),10,40000.0
+eoq-02,eoq,J0,none,J0c_rate_lambda,,,,,NA,field_missing(lambda/dep_rate),10,40000.0
+eoq-02,eoq,J0,none,J0e_win_invocation,,,,,NA,field_missing(win),10,40000.0
+eoq-03,eoq,J1,none,q,100.0,100.0,0.000000,0.01,PASS,tau=0.01,10,40000.0
+eoq-03,eoq,J1,none,cost,1000.0,1000.0,0.000000,0.01,PASS,tau=0.01,10,40000.0
+eoq-03,eoq,J2,none,J2a_little,,,,,NA,field_missing(W+dep_rate+L),10,40000.0
+eoq-03,eoq,J2,none,J2b_flow,,,,,NA,field_missing(arr/dep/blk 计数),10,40000.0
+eoq-03,eoq,J2,none,J2c_busy,,,,,NA,field_missing(busy_frac),10,40000.0
+eoq-03,eoq,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+eoq-03,eoq,J3,none,J3a_util_pasta,,,,,NA,field_missing(dep_rate+busy_frac+mu),10,40000.0
+eoq-03,eoq,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+eoq-03,eoq,J0,none,J0a_arrival_lambda,,,,,NA,field_missing(lambda/arr/win),10,40000.0
+eoq-03,eoq,J0,none,J0b_rate_flow,,,,,NA,field_missing(dep_rate/dep/win),10,40000.0
+eoq-03,eoq,J0,none,J0c_rate_lambda,,,,,NA,field_missing(lambda/dep_rate),10,40000.0
+eoq-03,eoq,J0,none,J0e_win_invocation,,,,,NA,field_missing(win),10,40000.0
+eoq-04,eoq,J1,none,q,200.0,200.0,0.000000,0.01,PASS,tau=0.01,10,40000.0
+eoq-04,eoq,J1,none,cost,2000.0,2000.0,0.000000,0.01,PASS,tau=0.01,10,40000.0
+eoq-04,eoq,J2,none,J2a_little,,,,,NA,field_missing(W+dep_rate+L),10,40000.0
+eoq-04,eoq,J2,none,J2b_flow,,,,,NA,field_missing(arr/dep/blk 计数),10,40000.0
+eoq-04,eoq,J2,none,J2c_busy,,,,,NA,field_missing(busy_frac),10,40000.0
+eoq-04,eoq,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+eoq-04,eoq,J3,none,J3a_util_pasta,,,,,NA,field_missing(dep_rate+busy_frac+mu),10,40000.0
+eoq-04,eoq,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+eoq-04,eoq,J0,none,J0a_arrival_lambda,,,,,NA,field_missing(lambda/arr/win),10,40000.0
+eoq-04,eoq,J0,none,J0b_rate_flow,,,,,NA,field_missing(dep_rate/dep/win),10,40000.0
+eoq-04,eoq,J0,none,J0c_rate_lambda,,,,,NA,field_missing(lambda/dep_rate),10,40000.0
+eoq-04,eoq,J0,none,J0e_win_invocation,,,,,NA,field_missing(win),10,40000.0
+eoq-05,eoq,J1,none,q,500.0,500.0,0.000000,0.01,PASS,tau=0.01,10,40000.0
+eoq-05,eoq,J1,none,cost,1000.0,1000.0,0.000000,0.01,PASS,tau=0.01,10,40000.0
+eoq-05,eoq,J2,none,J2a_little,,,,,NA,field_missing(W+dep_rate+L),10,40000.0
+eoq-05,eoq,J2,none,J2b_flow,,,,,NA,field_missing(arr/dep/blk 计数),10,40000.0
+eoq-05,eoq,J2,none,J2c_busy,,,,,NA,field_missing(busy_frac),10,40000.0
+eoq-05,eoq,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+eoq-05,eoq,J3,none,J3a_util_pasta,,,,,NA,field_missing(dep_rate+busy_frac+mu),10,40000.0
+eoq-05,eoq,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+eoq-05,eoq,J0,none,J0a_arrival_lambda,,,,,NA,field_missing(lambda/arr/win),10,40000.0
+eoq-05,eoq,J0,none,J0b_rate_flow,,,,,NA,field_missing(dep_rate/dep/win),10,40000.0
+eoq-05,eoq,J0,none,J0c_rate_lambda,,,,,NA,field_missing(lambda/dep_rate),10,40000.0
+eoq-05,eoq,J0,none,J0e_win_invocation,,,,,NA,field_missing(win),10,40000.0
+eoq-06,eoq,J1,none,q,1000.0,1000.0,0.000000,0.01,PASS,tau=0.01,10,40000.0
+eoq-06,eoq,J1,none,cost,2000.0,2000.0,0.000000,0.01,PASS,tau=0.01,10,40000.0
+eoq-06,eoq,J2,none,J2a_little,,,,,NA,field_missing(W+dep_rate+L),10,40000.0
+eoq-06,eoq,J2,none,J2b_flow,,,,,NA,field_missing(arr/dep/blk 计数),10,40000.0
+eoq-06,eoq,J2,none,J2c_busy,,,,,NA,field_missing(busy_frac),10,40000.0
+eoq-06,eoq,J2,none,J2d_sum,,,,,NA,field_missing(sum_wait+sum_dep_epoch+sum_arr_epoch),10,40000.0
+eoq-06,eoq,J3,none,J3a_util_pasta,,,,,NA,field_missing(dep_rate+busy_frac+mu),10,40000.0
+eoq-06,eoq,J3,none,J3b_pasta_qdist,,,,,NA,field_missing(q_time_hist/q_arrival_hist),10,40000.0
+eoq-06,eoq,J0,none,J0a_arrival_lambda,,,,,NA,field_missing(lambda/arr/win),10,40000.0
+eoq-06,eoq,J0,none,J0b_rate_flow,,,,,NA,field_missing(dep_rate/dep/win),10,40000.0
+eoq-06,eoq,J0,none,J0c_rate_lambda,,,,,NA,field_missing(lambda/dep_rate),10,40000.0
+eoq-06,eoq,J0,none,J0e_win_invocation,,,,,NA,field_missing(win),10,40000.0

@@ -1,0 +1,13 @@
+task_id,template,verdict,max_rel,n_obs,failures,wall
+ext-mm1-01,mm1,PASS,0.00229333,4,,21.9s
+ext-mm1-02,mm1,PASS,0.00481535,4,,32.4s
+ext-mmc-01,mmc,PASS,0.003737,4,,173.7s
+ext-mm1K-01,mm1K,PASS,0.00168855,5,,30.4s
+ext-mm1K-02,mm1K,PASS,0.00155,5,,18.8s
+ext-mmcK-01,mmcK,PASS,0.0028834,5,,135.5s
+ext-mmcK-02,mmcK,PASS,0.00108494,5,,35.9s
+ext-md1-01,md1,PASS,0.00230286,3,,19.1s
+ext-mh2-01,mh2,PASS,0.00419077,3,,23.6s
+ext-jackson2-01,jackson2,PASS,0.006502,2,,51.2s
+ext-eoq-01,eoq,PASS,0,2,,1.2s
+ext-newsvendor-01,newsvendor,PASS,0.000233866,2,,2.0s

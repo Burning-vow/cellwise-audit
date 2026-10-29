@@ -1,0 +1,4 @@
+arm,rows,artifacts,trunc,err,runtime_n,kinds,compilable,entered,ok,gen_complete,obs_complete,cell_in,cell_tot,item_all,item_with_cells,tokens_in,tokens_out,reasoning,wall
+DeepSeek-Flash,192,192,14,0,192,"{""CRASH"": 8, ""FIELD_GAP"": 2, ""NO_ENTRY"": 6, ""OK"": 168, ""SYNTAX"": 8}",184,178,168,178,168,140,540,37,168,147618,344622,0,1069.3565847873688
+Qwen3.8-Flash,192,192,1,0,192,"{""CRASH"": 77, ""NO_ENTRY"": 9, ""OK"": 102, ""SYNTAX"": 4}",188,179,102,191,102,131,296,37,102,147645,581332,0,9089.8
+GLM-5.3-Flash,192,192,3,0,192,"{""CRASH"": 73, ""FIELD_GAP"": 3, ""OK"": 112, ""SYNTAX"": 4}",188,188,112,189,112,140,341,33,113,143676,305132,63747,4159.3

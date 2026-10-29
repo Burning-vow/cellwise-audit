@@ -1,0 +1,145 @@
+[
+ {
+  "trial": "kill_08",
+  "kill_after_s": 8,
+  "kill_at_s": 8.0,
+  "rows_at_kill": 8,
+  "committed_at_kill": 1,
+  "blocks_committed": [
+   [
+    "eoq-01",
+    "E35"
+   ]
+  ],
+  "resume_rc": 0,
+  "resume_s": 68.2,
+  "rows_final": 74,
+  "keys_final": 7,
+  "identical": true,
+  "duplicate_rows": 0,
+  "resume_todo": [
+   "[mmatrix 1/60] todo=6 skip=1 seeds=10 hor=40000"
+  ],
+  "repair_line": []
+ },
+ {
+  "trial": "kill_20",
+  "kill_after_s": 20,
+  "kill_at_s": 20.0,
+  "rows_at_kill": 30,
+  "committed_at_kill": 3,
+  "blocks_committed": [
+   [
+    "eoq-01",
+    "E35"
+   ],
+   [
+    "jackson2-03",
+    "E26"
+   ],
+   [
+    "mh2-01",
+    "E01"
+   ]
+  ],
+  "resume_rc": 0,
+  "resume_s": 50.6,
+  "rows_final": 74,
+  "keys_final": 7,
+  "identical": true,
+  "duplicate_rows": 0,
+  "resume_todo": [
+   "[mmatrix 1/60] todo=4 skip=3 seeds=10 hor=40000"
+  ],
+  "repair_line": []
+ },
+ {
+  "trial": "kill_35",
+  "kill_after_s": 35,
+  "kill_at_s": 35.0,
+  "rows_at_kill": 41,
+  "committed_at_kill": 4,
+  "blocks_committed": [
+   [
+    "eoq-01",
+    "E35"
+   ],
+   [
+    "jackson2-03",
+    "E26"
+   ],
+   [
+    "mh2-01",
+    "E01"
+   ],
+   [
+    "mm1-02",
+    "E12"
+   ]
+  ],
+  "resume_rc": 0,
+  "resume_s": 37.0,
+  "rows_final": 74,
+  "keys_final": 7,
+  "identical": true,
+  "duplicate_rows": 0,
+  "resume_todo": [
+   "[mmatrix 1/60] todo=3 skip=4 seeds=10 hor=40000"
+  ],
+  "repair_line": []
+ },
+ {
+  "trial": "kill_50",
+  "kill_after_s": 50,
+  "kill_at_s": 50.0,
+  "rows_at_kill": 52,
+  "committed_at_kill": 5,
+  "blocks_committed": [
+   [
+    "eoq-01",
+    "E35"
+   ],
+   [
+    "jackson2-03",
+    "E26"
+   ],
+   [
+    "mh2-01",
+    "E01"
+   ],
+   [
+    "mm1-02",
+    "E12"
+   ],
+   [
+    "mm1K-02",
+    "E25"
+   ]
+  ],
+  "resume_rc": 0,
+  "resume_s": 23.7,
+  "rows_final": 74,
+  "keys_final": 7,
+  "identical": true,
+  "duplicate_rows": 0,
+  "resume_todo": [
+   "[mmatrix 1/60] todo=2 skip=5 seeds=10 hor=40000"
+  ],
+  "repair_line": []
+ },
+ {
+  "trial": "inject_partial",
+  "truncated_key": "mmcK-06__E29",
+  "rows_injected": 70,
+  "missing_rows": 4,
+  "rc": 0,
+  "identical": true,
+  "rows_final": 74,
+  "repair_line": [
+   "[mmatrix 1/60] 修复半块：删掉 7 行 / 1 个未提交块，接下来重跑它们"
+  ],
+  "todo_line": [
+   "[mmatrix 1/60] todo=1 skip=6 seeds=10 hor=40000"
+  ]
+ }
+]

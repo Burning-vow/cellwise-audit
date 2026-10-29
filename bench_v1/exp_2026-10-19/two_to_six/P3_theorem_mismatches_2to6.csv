@@ -1,0 +1,9 @@
+task_id,error_type,observable,template,rel_max,tau,prediction,observed,verdict
+mmcK-01,E03,L,mmcK,0.00811,0.01,detectable,not_fired,MISMATCH
+mmcK-02,E03,W,mmcK,0.005278,0.01,detectable,not_fired,MISMATCH
+mmcK-02,E03,L,mmcK,0.005163,0.01,detectable,not_fired,MISMATCH
+mmcK-03,E03,L,mmcK,0.003317,0.01,detectable,not_fired,MISMATCH
+mmcK-01,E24,L,mmcK,0.005717,0.01,detectable,not_fired,MISMATCH
+mmcK-02,E24,W,mmcK,0.003731,0.01,detectable,not_fired,MISMATCH
+mmcK-02,E24,L,mmcK,0.003843,0.01,detectable,not_fired,MISMATCH
+mmcK-03,E24,L,mmcK,0.001922,0.01,detectable,not_fired,MISMATCH

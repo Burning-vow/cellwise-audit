@@ -1,0 +1,9 @@
+metric,r10c_pre_registered,two_to_six,delta
+tasks,26,54,28
+artifacts,408,1092,684
+TP,222,569,347
+MISS,0,1,1
+BLIND_CONFIRM,57,173,116
+WEAK_FIRED,50,146,96
+BENIGN_OK,68,180,112
+INJECTION_IDLE,11,23,12

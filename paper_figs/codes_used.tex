@@ -1,0 +1,29 @@
+%% 由 PATCH_r4_fig_and_labels.py 从 simcore.py + 正文 §3.2 现生成，勿手改。
+%% Decl. 列用正文的五标签词表；与内核 expected 字段的差异自动进表注。
+\begin{table}[t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2pt}
+\caption{The 13 error codes used in the text: what the injection turns, and the label the theorem layer declares \emph{for the mmcK template} (the corner this paper audits). The full catalogue (38 error classes and 4 benign representation controls, 42 codes) ships with the reproducibility package.}
+\label{tab:codes}
+\begin{tabular}{@{}lll@{}}
+\toprule
+Code & Mechanism turned & Decl. \\
+\midrule
+E01 & FCFS $\rightarrow$ LCFS, non-preemptive & 0-detect. \\
+E02 & FCFS $\rightarrow$ SIRO & 0-detect. \\
+E03 & SPT: reads service time & detect. \\
+E04 & preemptive LCFS, none asked & 0-detect.\textdagger \\
+E07 & $\lambda$ and $\mu$ swapped & detect. \\
+E12 & singles coded as pairs & detect. \\
+E14 & capacity bound omitted & weak \\
+E15 & $K\rightarrow K{-}3$ & weak \\
+E16 & queue limit as system limit & weak \\
+E21 & baulking not implemented & weak \\
+E24 & prefers the short-service class & detect. \\
+E25 & preempt restarts service & detect. \\
+E43 & $W$ back-solved from own $L$ & no-inf. \\
+\bottomrule
+\end{tabular}
+\par\vspace{1pt}{\upshape\scriptsize \textdagger~E04 is template-conditional: \texttt{blind} on mmcK, \texttt{detectable} by default.}
+\end{table}

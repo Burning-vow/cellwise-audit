@@ -1,0 +1,8 @@
+key,task_id,error_type,template,family,expected,seeds,horizon,trig_nonhead,trig_preempt,trig_class0,trig_transfer,trig_swap_noop,trig_leak,trig_fieldconst,trig_backsolve,trig_lostcycle,ran
+mm1-07__E39,mm1-07,E39,mm1,estimation,detectable,10,40000.0,0,0,0,0,0,0,10,0,,1
+mm1-08__E25,mm1-08,E25,mm1,order,detectable,10,40000.0,6017629,3197785,0,0,0,0,0,0,,1
+mmc-01__E07,mmc-01,E07,mmc,resource,detectable,10,40000.0,0,0,0,0,0,0,0,0,,1
+mmc-01__E27,mmc-01,E27,mmc,estimation,weak,10,40000.0,0,0,0,0,0,0,0,0,,1
+mmc-02__E09,mmc-02,E09,mmc,arrival_service_process,detectable,10,40000.0,0,0,0,0,0,0,0,0,,1
+mmc-02__E41,mmc-02,E41,mmc,scheduling,detectable,10,40000.0,0,0,0,0,0,20,0,0,,1
+mmc-03__E23,mmc-03,E23,mmc,customer_behaviour,weak,10,40000.0,0,0,0,0,0,0,0,0,,1

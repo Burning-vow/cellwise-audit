@@ -1,0 +1,9 @@
+[mmatrix 1/1] todo=33 skip=2 seeds=10 hor=40000
+[mmatrix 1/1] 1/33 mmc-06__E19 171.6s rows=11
+[mmatrix 1/1] 5/33 mm1K-03__E14 56.2s rows=11
+[mmatrix 1/1] 10/33 mmcK-01__E16 97.7s rows=11
+[mmatrix 1/1] 15/33 mmcK-06__E29 19.5s rows=11
+[mmatrix 1/1] 20/33 md1-05__E24 31.3s rows=11
+[mmatrix 1/1] 25/33 mh2-06__E39 18.3s rows=11
+[mmatrix 1/1] 30/33 jackson2-07__E22 36.5s rows=11
+[mmatrix 1/1] ALL 33 done

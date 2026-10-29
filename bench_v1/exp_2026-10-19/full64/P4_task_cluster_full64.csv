@@ -1,0 +1,5 @@
+category,declared,idle,noinst,collapse,judged,success,failure,artifact_fail_rate,artifact_wilson_hi,judged_tasks,failed_tasks,idle_only_tasks,task_fail_rate,task_wilson_hi,eff_judged,eff_success,eff_failure,eff_artifact_fail_rate,eff_artifact_wilson_hi,eff_judged_tasks,eff_failed_tasks,eff_task_fail_rate,eff_task_wilson_hi
+detectable,704,8,1,1,695,694,1,0.001439,0.008105,64,1,0,0.015625,0.083343,694,694,0,0.000000,0.005505,64,0,0.000000,0.056626
+blind,234,16,0,0,218,218,0,0.000000,0.017317,52,0,0,0.000000,0.068795,218,218,0,0.000000,0.017317,52,0,0.000000,0.068795
+weak,190,4,0,0,186,186,0,0.000000,0.020236,54,0,4,0.000000,0.066416,186,186,0,0.000000,0.020236,54,0,0.000000,0.066416
+benign,220,0,0,0,220,220,0,0.000000,0.017162,58,0,0,0.000000,0.062120,220,220,0,0.000000,0.017162,58,0,0.000000,0.062120

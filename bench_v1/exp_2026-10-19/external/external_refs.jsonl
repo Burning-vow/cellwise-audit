@@ -1,0 +1,12 @@
+{"task_id": "ext-mm1-01", "template": "mm1", "error_type": "REF", "artifact_path": "bench_v1/artifacts_external/ext-mm1-01__REF.py"}
+{"task_id": "ext-mm1-02", "template": "mm1", "error_type": "REF", "artifact_path": "bench_v1/artifacts_external/ext-mm1-02__REF.py"}
+{"task_id": "ext-mmc-01", "template": "mmc", "error_type": "REF", "artifact_path": "bench_v1/artifacts_external/ext-mmc-01__REF.py"}
+{"task_id": "ext-mm1K-01", "template": "mm1K", "error_type": "REF", "artifact_path": "bench_v1/artifacts_external/ext-mm1K-01__REF.py"}
+{"task_id": "ext-mm1K-02", "template": "mm1K", "error_type": "REF", "artifact_path": "bench_v1/artifacts_external/ext-mm1K-02__REF.py"}
+{"task_id": "ext-mmcK-01", "template": "mmcK", "error_type": "REF", "artifact_path": "bench_v1/artifacts_external/ext-mmcK-01__REF.py"}
+{"task_id": "ext-mmcK-02", "template": "mmcK", "error_type": "REF", "artifact_path": "bench_v1/artifacts_external/ext-mmcK-02__REF.py"}
+{"task_id": "ext-md1-01", "template": "md1", "error_type": "REF", "artifact_path": "bench_v1/artifacts_external/ext-md1-01__REF.py"}
+{"task_id": "ext-mh2-01", "template": "mh2", "error_type": "REF", "artifact_path": "bench_v1/artifacts_external/ext-mh2-01__REF.py"}
+{"task_id": "ext-jackson2-01", "template": "jackson2", "error_type": "REF", "artifact_path": "bench_v1/artifacts_external/ext-jackson2-01__REF.py"}
+{"task_id": "ext-eoq-01", "template": "eoq", "error_type": "REF", "artifact_path": "bench_v1/artifacts_external/ext-eoq-01__REF.py"}
+{"task_id": "ext-newsvendor-01", "template": "newsvendor", "error_type": "REF", "artifact_path": "bench_v1/artifacts_external/ext-newsvendor-01__REF.py"}

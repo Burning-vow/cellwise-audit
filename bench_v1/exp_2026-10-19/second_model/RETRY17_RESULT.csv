@@ -1,0 +1,23 @@
+task_id,template,sample,first_kind,first_n_in,first_n_tot,first_has_entry,retry_kind,retry_n_in,retry_n_tot,retry_has_entry,retry_missing,retry_finish,retry_code_lines,retry_err,retry_run_note
+jackson2-03,jackson2,1,NO_ENTRY,0,0,False,OK,0,2,True,[],stop,454,,ok
+jackson2-03,jackson2,3,NO_ENTRY,0,0,False,CRASH,0,0,True,[],stop,464,,":\bench_v1\exp_2026-10-19\second_model\qwen3.8flash_20261019_retry17\jackson2-03__d3__retry.py"", line 213, in main
+    active_job_arrival_times.appe"
+jackson2-06,jackson2,2,NO_ENTRY,0,0,False,OK,0,2,True,[],stop,553,,ok
+md1-02,md1,1,NO_ENTRY,0,0,False,SYNTAX,0,0,,[],stop,381,,
+md1-05,md1,3,NO_ENTRY,0,0,False,OK,1,3,True,[],stop,392,,ok
+mh2-01,mh2,2,NO_ENTRY,0,0,False,NO_ENTRY,0,0,False,[],stop,285,,no_json_line
+mh2-01,mh2,3,NO_ENTRY,0,0,False,OK,1,3,True,[],stop,491,,ok
+mh2-06,mh2,1,NO_ENTRY,0,0,False,OK,0,3,True,[],stop,556,,ok
+mh2-06,mh2,2,NO_ENTRY,0,0,False,CRASH,0,0,True,[],stop,412,,"6-10-19\second_model\qwen3.8flash_20261019_retry17\mh2-06__d2__retry.py"", line 239, in main
+    sum_sojourn_time += (t - active_arrival_time)
+                  "
+mh2-06,mh2,3,SYNTAX,0,0,,NO_ENTRY,0,0,False,[],stop,310,,no_json_line
+mm1-02,mm1,3,NO_ENTRY,0,0,False,OK,3,4,True,[],stop,330,,ok
+mm1-07,mm1,1,NO_ENTRY,0,0,False,OK,0,4,True,[],stop,489,,ok
+mm1K-05,mm1K,2,NO_ENTRY,0,0,False,CRASH,0,0,True,[],stop,462,,"python', 'bench_v1\\exp_2026-10-19\\second_model\\qwen3.8flash_20261019_retry17\\mm1K-05__d2__retry.py', '--see"
+mmc-03,mmc,1,NO_ENTRY,0,0,False,CRASH,0,0,True,[],stop,411,,"en3.8flash_20261019_retry17\mmc-03__d1__retry.py"", line 170, in main
+    if servers[k] is not None and servers[k] < next_event_t:
+                              "
+mmc-04,mmc,1,NO_ENTRY,0,0,False,SYNTAX,0,0,,[],stop,323,,
+mmcK-03,mmcK,3,NO_ENTRY,0,0,False,NO_ENTRY,0,0,False,[],stop,280,,no_json_line
+mmcK-06,mmcK,1,SYNTAX,0,0,,OK,0,4,True,[],stop,668,,ok
