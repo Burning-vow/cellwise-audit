@@ -1,10 +1,10 @@
 target_path,source_path,bytes,sha256_16
 .gitattributes,.gitattributes,118,56e118441ab31414
 .gitignore,.gitignore,259,b543419b3b18fa7d
-CITATION.cff,CITATION.cff,661,acc05a8b737e4733
+CITATION.cff,CITATION.cff,652,873a019d03291b17
 LICENSE,LICENSE,1114,49fe089eba0880f8
 LICENSE-DATA.txt,LICENSE-DATA.txt,865,ec2ca4b3660c9f04
-README.md,README.md,5351,5dd3153954e0a8dd
+README.md,README.md,5345,79337a066d60ed23
 VERIFY_repro_package.py,VERIFY_repro_package.py,3890,0d1c6336ca06ba33
 bench_v1/BENIGN_PROOF.csv,bench_v1/BENIGN_PROOF.csv,3343,e80cdabca2421057
 bench_v1/CHECK_labels.py,bench_v1/CHECK_labels.py,3410,5c3f1cdaf25c0bff
@@ -3508,9 +3508,9 @@ bench_v1/table_FP_v2.csv,bench_v1/table_FP_v2.csv,77574,4b3b4c616f2576ae
 bench_v1/table_tau_v2.csv,bench_v1/table_tau_v2.csv,12779,cb28aa1244bfe217
 bench_v1/tasks.jsonl,bench_v1/tasks.jsonl,74649,cbf60c75e88e7bf4
 bench_v1/theorem_map.py,bench_v1/theorem_map.py,6672,e4c843241597ce0f
-paper_figs/codes_used.tex,paper_figs/codes_used.tex,1425,cc833c8a19cec37a
-paper_figs/figs/fig3_cxk.pdf,paper_figs/figs/fig3_cxk.pdf,39489,54a14c8cf909079f
-paper_figs/make_figs.py,paper_figs/make_figs.py,14163,1858eda50d8effe5
+figures/codes_used.tex,figures/codes_used.tex,1425,cc833c8a19cec37a
+figures/figs/fig3_cxk.pdf,figures/figs/fig3_cxk.pdf,39489,54a14c8cf909079f
+figures/make_figs.py,figures/make_figs.py,14163,1858eda50d8effe5
 pilot_c6/analytics.py,pilot_c6/analytics.py,3629,4d80cf60b4286516
 pilot_c6/check_s3.py,pilot_c6/check_s3.py,6928,d9336de3b800c61e
 pilot_c6/check_s33.py,pilot_c6/check_s33.py,5005,7918d5d5786dda91
@@ -3520,4 +3520,4 @@ pilot_c6/pilot3_results.jsonl,pilot_c6/pilot3_results.jsonl,50261,6d6d9d5bf98ee2
 pilot_c6/pilot4_results.jsonl,pilot_c6/pilot4_results.jsonl,3875,3322c2d2098838f4
 pilot_c6/pilot_results.controlled_pre.jsonl,pilot_c6/pilot_results.controlled_pre.jsonl,46151,dfbc12e8d15a1a80
 pilot_c6/pilot_results.jsonl,pilot_c6/pilot_results.jsonl,46280,bd9a1f1d5ec87ee1
-requirements.txt,requirements.txt,305,0f672aaea888fc19
+requirements.txt,requirements.txt,295,f1fe657de3ba0fba

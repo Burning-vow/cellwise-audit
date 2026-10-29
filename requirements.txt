@@ -1,5 +1,5 @@
 # Tested on CPython 3.13.5 (Windows).
-# Only numpy is required to reproduce every table and figure in the paper.
+# Only numpy is required to run every script in this repository.
 numpy>=2.0            # tested 2.4.4
 # Optional: simpy is needed only by pilot_c6/pilot.py (the SimPy cross-check).
 # simpy>=4.1

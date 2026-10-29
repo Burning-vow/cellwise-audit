@@ -28,7 +28,7 @@ result matrices.
 | `bench_v1/_s3_kill/` | crash/restart test for the matrix driver |
 | `bench_v1/PIK_FULL64.py` | blocking probability per weak cell, from task parameters |
 | `pilot_c6/` | independent SimPy implementation of the same queueing logic |
-| `paper_figs/` | figure-generation script and the resulting PDFs |
+| `figures/` | figure-generation script and the resulting PDFs |
 
 ## Environment
 
@@ -47,7 +47,7 @@ them from the repository root.
 | `python bench_v1/PIK_FULL64.py` | computes the blocking probability of each weak cell from its task parameters (Erlang loss formula, independent of the simulation) |
 | `python bench_v1/_s3_kill/killtest.py` | kills and restarts the matrix driver on a small shard and compares the resumed output with an uninterrupted baseline (about six minutes; it terminates its own child processes) |
 | `python bench_v1/exp_scaling/STRONG_SCALING.py` | re-times a fixed workload at a given worker count; the summary CSV in the same directory holds the measured runs |
-| `python paper_figs/make_figs.py` | redraws the figures from the per-cell matrices; it exits if the number of plotted points differs from the matrix |
+| `python figures/make_figs.py` | redraws the figures from the per-cell matrices; it exits if the number of plotted points differs from the matrix |
 | `cd bench_v1/exp_2026-10-19/external && python run_external.py` | regenerates the held-out matrix; set `EXT_MAT_CSV` to the shard to write |
 | `python bench_v1/criteria.py` | runs the judge self-checks |
 | `python bench_v1/selfcheck_all.py` | runs all package self-checks |

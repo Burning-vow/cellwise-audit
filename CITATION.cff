@@ -1,7 +1,7 @@
 cff-version: 1.2.0
-message: "If you use this package, please cite the paper below."
+message: "If you use this software, cite it with the metadata below."
 type: software
-title: "Reproducibility package: Cell-Wise Detectability Boundaries for LLM-Generated Stochastic Simulation Models"
+title: "cellwise-audit: a cell-wise detectability audit toolkit for discrete-event simulation models"
 repository-code: "https://github.com/Burning-vow/cellwise-audit"
 authors:
   - given-names: Teng
