@@ -14,8 +14,24 @@ import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-# 脚本放在包外（项目根）时核对兄弟目录；被复制进包后就地核对自身所在目录
-DST = HERE if os.path.isfile(os.path.join(HERE, 'MANIFEST.csv')) else os.path.join(HERE, 'repro_package_cscwd2027')
+
+
+def _find_root():
+    """Locate the package root without assuming what the folder is called."""
+    if os.path.isfile(os.path.join(HERE, 'MANIFEST.csv')):
+        return HERE
+    env = os.environ.get('REPRO_ROOT')
+    if env and os.path.isfile(os.path.join(env, 'MANIFEST.csv')):
+        return os.path.abspath(env)
+    cands = sorted(d for d in os.listdir(HERE)
+                   if os.path.isfile(os.path.join(HERE, d, 'MANIFEST.csv')))
+    if len(cands) == 1:
+        return os.path.join(HERE, cands[0])
+    raise SystemExit('no package root with MANIFEST.csv: run inside the package '
+                     'or set REPRO_ROOT; candidates=%s' % (cands or 'none'))
+
+
+DST = _find_root()
 LIT_KEY = re.compile(r'sk-[A-Za-z0-9]{16,}')
 BAD_DIR = ('__pycache__', 'calib_ref', '_archive_superseded')
 

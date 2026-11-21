@@ -7,8 +7,17 @@ import os
 import re
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(HERE)
 SIM = os.path.join(HERE, 'simcore.py')
-MT = os.path.join(os.path.dirname(HERE), 'paper_cscwd2027', 'main.tex')
+# The generated table ships with the package. The manuscript is optional: set
+# PAPER_TEX to also check the prose wording, otherwise that section is skipped.
+TAB = os.path.join(ROOT, 'figures', 'codes_used.tex')
+MT = os.environ.get('PAPER_TEX', '')
+if not MT:
+    _cand = os.path.join(ROOT, 'paper', 'main.tex')
+    MT = _cand if os.path.isfile(_cand) else ''
+if not os.path.isfile(TAB):
+    raise SystemExit('missing %s: run this from the repository root' % TAB)
 USED = ['E01', 'E02', 'E03', 'E04', 'E07', 'E12', 'E14', 'E15', 'E16', 'E21', 'E24', 'E25', 'E43']
 
 src = io.open(SIM, encoding='utf-8').read()
@@ -26,8 +35,7 @@ out.append('')
 out.append('| 码 | 默认 expected | expected_by_tpl | 表里印的 | mmcK 上应为 |')
 out.append('|----|--------------|-----------------|---------|------------|')
 
-tab = io.open(os.path.join(os.path.dirname(HERE), 'paper_cscwd2027', 'codes_used.tex'),
-              encoding='utf-8').read()
+tab = io.open(TAB, encoding='utf-8').read()
 DECLMAP = {'blind': 'blind', 'detectable': 'detect.', 'weak': 'weak'}
 nbad = 0
 for c in USED:
@@ -56,9 +64,13 @@ vals = sorted({m.group(1) for b in entries.values() for m in
 out.append('- %s' % vals)
 out.append('')
 out.append('## 正文 §3.2 声明的先验标签词表（原文）')
-mt = io.open(MT, encoding='utf-8').read()
-seg = re.search(r'The theorem layer assigns one of five prior labels:(.{0,420})', mt, re.S)
-out.append('- %s' % (seg.group(1).strip().replace('\n', ' ') if seg else 'NOT FOUND'))
+if MT:
+    mt = io.open(MT, encoding='utf-8').read()
+    seg = re.search(r'The theorem layer assigns one of five prior labels:(.{0,420})', mt, re.S)
+    prose = seg.group(1).strip().replace('\n', ' ') if seg else 'NOT FOUND in %s' % MT
+else:
+    prose = 'skipped: set PAPER_TEX=.../main.tex to check the manuscript wording'
+out.append('- %s' % prose)
 out.append('')
 out.append('## 表里 Decl. 列实际用到的词')
 out.append('- %s' % sorted({m.group(1) for m in re.finditer(r'& (blind|detect\.|weak|collapse|no-inf\.) \\\\', tab)}))
